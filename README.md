@@ -1,19 +1,7 @@
 ## Hi there 👋
 
 # 💫 About Me:
-I'm Ashley Motsie a full-stack developer proficient in backend development, passionate for building scalable apps to solve real-world problems.<br>
-Developing innovative solutions and seamless UX.
-I am excited and looking forward to collaborating with experienced professionals and acquire new knowledge <br>as well as contributing to dynamic projects that breaks the <br>boundaries of what seems challenging.<br><br>
-I have Experience working with variety of technologies, that includes:<br>
-
-- Django, Flask & python for backend logic, authentication and APIs development.<br>
--PostgrSQL and MySQL for SQL database management.<br>
--Git for version control.<br>
--React + vite & React Native for building both responsive and interactive applications.<br>
--PHP and PhpMyAdmin for backend, authentication and database management.<br>
--Docker for containerization and scalable deployments.<br><br>
-
-I'm currently focused on building unique platforms and systems that pose a positive social impact in the world of tech.<br>Always excited about learning new technologies and engaging on projects that bring about change and diversity.<br>
+I'm Ashley Motsie a full-stack developer proficient in backend development, passionate for building scalable apps to solve real-world problems.<br>Developing innovative solutions and seamless UX. I am excited and looking forward to collaborating with experienced professionals and acquire new knowledge <br>as well as contributing to dynamic projects that breaks the <br>boundaries of what seems challenging.<br><br>I have Experience working with variety of technologies, that includes:<br>Django, Flask & python for backend logic, authentication and APIs development.<br>PostgrSQL and MySQL for SQL database management.<br>Git for version control.<br>React + vite & React Native for building both responsive and interactive applications.<br>PHP and PhpMyAdmin for backend, authentication and database management.<br>Docker for containerization and scalable deployments.<br><br>I'm currently focused on building unique platforms and systems that pose a positive social impact in the world of tech.<br>Always excited about learning new technologies and engaging on projects that bring about change and diversity.<br>
 
 
 ## 🌐 Socials:
