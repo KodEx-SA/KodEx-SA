@@ -4,18 +4,14 @@
 I'm Ashley Koketso Motsie(Ashley.Programmer)💫 a full-stack developer proficient in backend development, passionate for building scalable applications to solve real-world problems.<br><br>
 Developing innovative solutions and seamless UX and functional logic. <br>
 I am excited and looking forward to collaborating with experienced professionals and acquire new knowledge <br>as well as contributing to dynamic projects that breaks the <br>boundaries of what seems challenging.<br><br><br><br>
-
 I have Experience working with variety of technologies, that includes:<br><br><br>
-
 - Django, Flask & python for backend logic, authentication and APIs development.<br><br>
 - PostgrSQL and MySQL for SQL database management.<br><br>
 - Git for version control.<br><br>
 - React & React Native for building both responsive and interactive applications.<br><br>
 - PHP and PhpMyAdmin for backend, authentication and database management.<br><br>
 - Docker for containerization and scalable deployments.<br><br><br><br>
-
 I'm currently focused on building unique platforms and systems that pose a positive social impact in the world of tech.<br>Always excited about learning new technologies and engaging on projects that bring about change and diversity.<br>
-
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ashley-koketso-motsie-718686263/) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@tiktok.com/@ashley_programmer) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@Ashley.Programmer) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:motsieashley31@gmail.com) 
