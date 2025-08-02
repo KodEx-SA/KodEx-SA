@@ -36,6 +36,4 @@ Here are the tools I use to make magic (and sometimes chaos 😅):
 ---
 [![](https://visitcount.itsvg.in/api?id=Ashley-Programmer&icon=2&color=7)](https://visitcount.itsvg.in)
 
----
-
 > *“The best way to predict the future is to build it.”* 
