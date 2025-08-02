@@ -4,7 +4,7 @@ Hi there 👋, I’m Ashley — a passionate developer and tech enthusiast focus
 
 I’m currently sharpening my skills in full‑stack development (MERN & Django), experimenting with APIs, databases, and deployment, and challenging myself with coding problems for fun (and sometimes frustration 😅). My GitHub reflects both learning milestones and real‑world projects — so feel free to explore, connect, or collaborate! Just don’t ask me how many times I’ve “fixed it in production.”  
 <br>  
-🔭 **Currently working on:** Full‑stack apps with MERN & Django, plus a few fun side projects.
+🔭 **Currently working on:** Full‑stack apps with MERN & Django, plus a few fun side projects.<br>
 💡 **Goal:** To keep learning, keep building, and keep fixing (without always doing it in production 😅).  
 
 
