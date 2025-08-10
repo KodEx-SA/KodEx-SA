@@ -140,7 +140,7 @@ Open source contributions. Mern Stack and APIs.
 ```javascript
 const socials = {
   github: "Ashley-Programmer",
-  linkedin: " https://www.linkedin.com/in/ashley-koketso-motsie-718686263/",
+  linkedin: "[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashley-koketso-motsie-718686263/)",
   website: "demo-portfolio-ashley.vercel.app",
   youtube: "@Ashley.Programmer",
   facebook: "https://www.facebook.com/ashley.programmer/",
