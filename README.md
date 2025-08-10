@@ -19,6 +19,13 @@ Here are the tools I use to make magic (and sometimes chaos 😅):<br><br>
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/27760932272)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:motsieashley31@gmail.com)
 
+<a href="https://linkedin.com/in/ashley-koketso-motsie-718686263/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ashley-koketso-motsie-718686263/" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/codex" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="codex" height="30" width="40" /></a>
+<a href="https://fb.com/ashley.programmer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ashley.programmer" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/@ashley.programmer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@ashley.programmer" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/motsieashley31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="motsieashley31" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/ashleydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ashleydev" height="30" width="40" /></a>
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Ashley-Programmer&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Ashley-Programmer&theme=dark&hide_border=true)<br/>
