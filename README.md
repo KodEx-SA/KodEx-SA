@@ -57,6 +57,14 @@ Open source contributions. Mern Stack and APIs.
   <img src="https://profile-counter.glitch.me/Ashley-Programmer/count.svg" />
   <br>Thank you for visiting my profile! Come back soon!
 </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ashley-Programmer&style=for-the-badge" alt="Profile views" />
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/Ashley-Programmer/count.svg" alt="Visitor Count" />
+  <br>Thank you for visiting my profile! Come back soon!
+</p>
+
 
 ## 🏆 GitHub Trophies
 
@@ -64,12 +72,20 @@ Open source contributions. Mern Stack and APIs.
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Ashley-Programmer&theme=onedark&column=7&margin-w=15&margin-h=15" />
 </p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ashley-Programmer&theme=onedark&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
+</p>
+
 
 ## 📊 GitHub Stats
 
 <!-- ⚠️ Important: Replace 'Ashley-Programmer' with your actual GitHub username in the URL below -->
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ashley-Programmer&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+</div>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ashley-Programmer&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashley-Programmer&layout=compact&langs_count=10&theme=dark" />
 </div>
 
 ## 🔝 Most Used Languages
@@ -85,6 +101,10 @@ Open source contributions. Mern Stack and APIs.
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ashley-Programmer&theme=dark&hide_border=false" />
 </div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ashley-Programmer&theme=dark&hide_border=true" />
+</p>
+
 
 ## 💻 Tech Stack
 
