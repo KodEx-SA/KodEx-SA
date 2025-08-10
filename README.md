@@ -45,7 +45,7 @@ databases, and deployment, and challenging myself with coding problems for fun (
 
 ## 🔭 I'm currently working on
 
-🔭 Currently working on: Full‑stack apps with MERN & Django, plus a few fun side projects.
+🔭 Currently working on: Full‑stack apps with MERN & Django, plus a few fun side projects.<br>
 💡 Goal: To keep learning, keep building, and keep fixing (without always doing it in production 😅).
 
 ## 🌱 I'm currently learning
