@@ -1,5 +1,5 @@
 <p align="left">
-  <img height="200" src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="Banner" />
+  <img height="350" width="1000" src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="Banner" />
 </p>
 
 # 💫 About Me:
