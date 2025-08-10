@@ -5,12 +5,17 @@ const profile = {
   name: "Ashley K Motsie",
   bio: "📚 “Forever a student, sometimes a teacher, always a coder.”
 
-Hi there 👋, I’m Ashley — a passionate developer and tech enthusiast focused on turning coffee ☕ into code. My projects range across web development, desktop applications, and backend systems, with experience in stacks like React + Vite, FastAPI, Django, and PHP + MySQL. I enjoy taking ideas from scratch to functional products, whether it’s creating e‑commerce platforms, dashboards, authentication systems, or utility apps like PDF search tools and duplicate file scanners (yes, because who really knows how many duplicate files they’ve got lying around?).
+Hi there 👋, I’m Ashley — a passionate developer and tech enthusiast focused on turning coffee ☕ into code.
+My projects range across web development, desktop applications, and backend systems,
+with experience in stacks like React + Vite, FastAPI, Django, and PHP + MySQL.
+I enjoy taking ideas from scratch to functional products, whether it’s creating e‑commerce platforms, dashboards, authentication systems,
+or utility apps like PDF search tools and duplicate file scanners (yes, because who really knows how many duplicate files they’ve got lying around?).
 
 A line of code a day keeps a bug away.",
   currentWork: "🔭 Currently working on: Full‑stack apps with MERN & Django, plus a few fun side projects.
 💡 Goal: To keep learning, keep building, and keep fixing (without always doing it in production 😅).",
-  learning: "I’m currently sharpening my skills in full‑stack development (MERN & Django), experimenting with APIs, databases, and deployment, and challenging myself with coding problems for fun (and sometimes frustration 😅).",
+  learning: "I’m currently sharpening my skills in full‑stack development (MERN & Django), experimenting with APIs,
+databases, and deployment, and challenging myself with coding problems for fun (and sometimes frustration 😅).",
   interests: "Open source contributions. Mern Stack and APIs.",
   skills: [
     "React",
