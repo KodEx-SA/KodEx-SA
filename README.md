@@ -4,7 +4,7 @@
 
 # 💫 About Me:
  📚 *“Forever a student, sometimes a teacher, always a coder.”* <br>
-<img align="right" alt="Coding" width="500" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"><br>
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
  
 Hi there 👋, I’m Ashley — a passionate developer and tech enthusiast focused on turning coffee ☕ into code.<br> My projects range across web development, desktop applications, and backend systems, with experience in stacks like React + Vite, FastAPI, Django, and PHP + MySQL.<br> I enjoy taking ideas from scratch to functional products, whether it’s creating e‑commerce platforms, dashboards, authentication systems, or utility apps like PDF search tools and duplicate file scanners (yes, because who really knows how many duplicate files they’ve got lying around?).<br><br>I’m currently sharpening my skills in full‑stack development (MERN & Django), experimenting with APIs, databases, and deployment, and challenging myself with coding problems for fun (and sometimes frustration 😅).<br> My GitHub reflects both learning milestones and real‑world projects — so feel free to explore, connect, or collaborate! Just don’t ask me how many times I’ve “fixed it in production.”
 
