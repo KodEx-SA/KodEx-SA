@@ -9,7 +9,9 @@
 Hi there 👋, I’m Ashley — a passionate developer and tech enthusiast focused on turning coffee ☕ into code.<br> My projects range across web development, desktop applications, and backend systems, with experience in stacks like React + Vite, FastAPI, Django, and PHP + MySQL.<br> I enjoy taking ideas from scratch to functional products, whether it’s creating e‑commerce platforms, dashboards, authentication systems, Chatbots or utility apps like PDF search tools and duplicate file scanners (yes, because who really knows how many duplicate files they’ve got lying around?).<br><br>
 I’m currently sharpening my skills in full‑stack development (MERN & Django), experimenting with APIs, databases, and deployment, and challenging myself with coding problems for fun (and sometimes frustration 😅).<br> My GitHub reflects both learning milestones and real‑world projects — so feel free to explore, connect, or collaborate! Just don’t ask me how many times I’ve “fixed it in production.” <br><br>
 
-<img align="center" alt="Coding" width="1000" height="300" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif"> 
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=5000&size=28&duration=2000&pause=1000&center=true&width=800&lines=%22Transforming+Ideas+into+Scalable+Solutions+%F0%9F%9A%80%22" alt="Typing SVG" />
+</a>
 
 🔭 **Currently working on:** Full‑stack apps with MERN & Django, plus a few side projects for fun.  
 💡 **Goal:** To keep learning, keep building, and keep fixing (without always doing it in production 😅). 
