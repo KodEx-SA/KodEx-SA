@@ -2,6 +2,8 @@
   <img height="350" width="1000" src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="Banner" />
 </p>
 
+[![committers.top badge](https://user-badge.committers.top/south_africa/USERNAME.svg)](https://user-badge.committers.top/south_africa/USERNAME)
+
 # 💫 About Me:
  📚 *“Forever a Student, sometimes a Teacher, always a Coder.”* <br>
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
