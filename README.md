@@ -2,9 +2,7 @@
   <img height="350" width="1000" src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="Banner" />
 </p>
 
-<p align="center">
-  [![committers.top badge](https://user-badge.committers.top/south_africa/USERNAME.svg)](https://user-badge.committers.top/south_africa/USERNAME)
-</p>
+[![committers.top badge](https://user-badge.committers.top/south_africa/USERNAME.svg)](https://user-badge.committers.top/south_africa/USERNAME)
 
 # 💫 About Me:
  📚 *“Forever a Student, sometimes a Teacher, always a Coder.”* <br>
