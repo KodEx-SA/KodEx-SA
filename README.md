@@ -60,18 +60,26 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
 
 <!-- Streak full width -->
 <p align="left" width="100%">
-  <img src="https://streak-stats.demolab.com?user=KodEx-SA&theme=default&hide_border=true" alt="GitHub Streak" />
+  
+  ![](https://nirzak-streak-stats.vercel.app/?user=KodEx-SA&theme=dark&hide_border=true)<br/>
+  
 </p>
 
 <!-- Two stats side by side -->
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=KodEx-SA&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" alt="GitHub Stats" height="180px"/>
+  
+  ![](https://github-readme-stats.vercel.app/api?username=KodEx-SA&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
   <img src="https://github-stats-alpha.vercel.app/api?username=KodEx-SA" alt="GitHub Alpha Stats" height="180px"/>
+  
 </p>
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 <!-- Trophies full width -->
 <p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=flat&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
+  
+  ![](https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=onedark&no-frame=true&no-bg=false&margin-w=4)
+  
 </p>
 
 <div align="left">
