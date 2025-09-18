@@ -1,3 +1,9 @@
+<p align="center">
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="https://github.com/KodEx-SA/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack%20Developer;5%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=80&color=f75c7e&vCenter=true&pause=10&size=25" /></a>
+</p>
+
 <p align="left">
   <img height="350" width="1000" src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="Banner" />
 </p>
@@ -27,9 +33,12 @@ I’m currently sharpening my skills in full‑stack development (MERN & Django)
 <a href="https://www.leetcode.com/ashleydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ashleydev" height="30" width="40" /></a>
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=KodEx-SA&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=KodEx-SA&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+![Kittinan's github stats](https://github-readme-stats.vercel.app/api?username=KodEx-SA&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+
+![](https://github-stats-alpha.vercel.app/api?username=KodEx-SA)
+
+![Stats Overview](https://raw.githubusercontent.com/Kodex-SA/github-stats-transparent/output/generated/overview.svg)
+![Most Used Languages](https://raw.githubusercontent.com/KodEx-SA/github-stats-transparent/output/generated/languages.svg)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
