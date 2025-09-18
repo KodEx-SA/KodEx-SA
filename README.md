@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/KodEx-SA/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack%20Developer;5%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=80&color=f75c7e&vCenter=true&pause=10&size=25" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Software%20Developer;5%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=80&color=f75c7e&vCenter=true&pause=10&size=25" />
   </a>
 </p>
 
