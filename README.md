@@ -67,6 +67,14 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
+<div align="left">
+  <h2>🐍 My Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/KodEX-SA/KodEx-SA/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/><br/>
+</div>
+
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=KodEx-SA&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
