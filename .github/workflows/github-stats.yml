@@ -10,6 +10,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Download GitHub Stats SVGs
+        run: |
+          mkdir -p stats
+          curl -o stats/overview.svg "https://github-readme-stats.vercel.app/api?username=KodEx-SA&hide_title=true&hide_border=true&bg_color=00000000"
+          curl -o stats/languages.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&hide_title=true&hide_border=true&bg_color=00000000"
+
       - name: Commit and push SVGs
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
