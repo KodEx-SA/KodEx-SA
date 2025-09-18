@@ -57,17 +57,31 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
 ---
 
 # 📊 GitHub Stats
-![Kittinan's github stats](https://github-readme-stats.vercel.app/api?username=KodEx-SA&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-![](https://github-stats-alpha.vercel.app/api?username=KodEx-SA)
+<!-- Streak full width -->
+<p align="center" width="100%">
+  <img src="https://streak-stats.demolab.com?user=KodEx-SA&theme=default&hide_border=true" alt="GitHub Streak" />
+</p>
 
-![GitHub Stats](overview.svg)
-![Most Used Languages](languages.svg)
+<!-- Two stats side by side -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KodEx-SA&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" alt="GitHub Stats" height="180px"/>
+  <img src="https://github-stats-alpha.vercel.app/api?username=KodEx-SA" alt="GitHub Alpha Stats" height="180px"/>
+</p>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+<!-- Trophies full width -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=flat&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
+</p>
 
-<div align="left">
+<div align="center">
+  <h2> ✍️ Random Dev Quote </h2>
+  
+  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+
+</div>
+
+<div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/KodEX-SA/KodEx-SA/output/github-contribution-grid-snake.svg" />
@@ -75,8 +89,12 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
   <br/><br/><br/>
 </div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=KodEx-SA&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<div align="center">
+<h2> 🔝 Top Contributed Repo </h2>
+  
+  ![](https://github-contributor-stats.vercel.app/api?username=KodEx-SA&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+</div>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=KodEx-SA&icon=0&color=0)](https://visitcount.itsvg.in)
