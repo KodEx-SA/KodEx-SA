@@ -61,8 +61,8 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
 
 ![](https://github-stats-alpha.vercel.app/api?username=KodEx-SA)
 
-![GitHub Stats](stats/overview.svg)
-![Most Used Languages](stats/languages.svg)
+![GitHub Stats](overview.svg)
+![Most Used Languages](languages.svg)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
