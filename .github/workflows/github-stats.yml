@@ -1,0 +1,27 @@
+name: Generate GitHub Stats SVG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # runs daily
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate SVG stats
+        uses: owlypixel/github-stats-transparent@v2
+        with:
+          user: KodEx-SA
+          output: stats # Folder for SVGs
+
+      - name: Commit and push SVGs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/generated
+          git commit -m "Update GitHub stats SVGs" || echo "No changes to commit"
+          git push origin HEAD:main
