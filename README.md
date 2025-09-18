@@ -59,7 +59,7 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
 # 📊 GitHub Stats
 ![Kittinan's github stats](https://github-readme-stats.vercel.app/api?username=KodEx-SA&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-![](https://github-stats-alpha.vercel.app/api?username=KodE-SA)
+![](https://github-stats-alpha.vercel.app/api?username=KodEx-SA)
 
 ![GitHub Stats](stats/overview.svg)
 ![Most Used Languages](stats/languages.svg)
