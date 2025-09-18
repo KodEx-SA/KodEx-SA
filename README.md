@@ -9,6 +9,7 @@
 </p>
 
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
+[![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.contributions.top/south_africa/KodEx-SA)
 
 # 💫 About Me
 📚 *“Forever a Student, sometimes a Teacher, always a Coder.”*  
