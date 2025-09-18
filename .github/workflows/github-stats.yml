@@ -3,7 +3,7 @@ name: Generate GitHub Stats SVG
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # runs daily
+    - cron: '0 0 * * *'
 
 jobs:
   generate:
@@ -12,11 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate SVG stats
-        uses: owlypixel/github-stats-transparent@v2
-        with:
-          user: KodEx-SA
-          output: stats # Folder for SVGs
+      - name: Download GitHub Stats SVG
+        run: |
+          mkdir -p stats
+          curl -o stats/overview.svg "https://github-readme-stats.vercel.app/api?username=KodEx-SA&hide_title=true&hide_border=true&bg_color=00000000"
+          curl -o stats/languages.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&hide_title=true&hide_border=true&bg_color=00000000"
 
       - name: Commit and push SVGs
         run: |
