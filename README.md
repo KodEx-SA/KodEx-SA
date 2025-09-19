@@ -187,7 +187,8 @@ class Developer {
   <a href="https://www.hackerrank.com/motsieashley31" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/ashleydev" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
   <br/><br/>
-
+  <br/><br/>
+  
   [![](https://visitcount.itsvg.in/api?id=KodEx-SA&icon=0&color=0)](https://visitcount.itsvg.in)
 </div>
 
