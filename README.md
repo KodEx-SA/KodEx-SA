@@ -8,7 +8,7 @@
   <a href="mailto:motsieashley31@gmail.com">
     <img src="https://custom-icon-badges.demolab.com/badge/Email-FF6B35?style=for-the-badge&logo=mail&logoColor=white&labelColor=000000" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/your-linkedin/](https://www.linkedin.com/in/ashley-k-motsie-718686263/">
+  <a href="https://www.linkedin.com/in/ashley-k-motsie-718686263/">
     <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
   </a>
 <a href="https://www.youtube.com/@Ashley.Programmer">
