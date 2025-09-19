@@ -58,22 +58,12 @@ My GitHub reflects both learning milestones and real‑world projects — so fee
 
 # 📊 GitHub Stats
 
-<!-- Streak full width -->
-<p align="left" width="100%">
-  
-  ![](https://nirzak-streak-stats.vercel.app/?user=KodEx-SA&theme=dark&hide_border=true)<br/>
-  
-</p>
+<table><tbody><tr border="none"><td width="50%" align="center">
+<img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true">
 
-<!-- Two stats side by side -->
-<p align="left">
-  
-  ![](https://github-readme-stats.vercel.app/api?username=KodEx-SA&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
-  <img src="https://github-stats-alpha.vercel.app/api?username=KodEx-SA" alt="GitHub Alpha Stats" height="180px"/>
-  
-</p>
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+<img alt="Mark streak" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark"></td><td width="50%" align="center">
+<img src="https://github-stats-alpha.vercel.app/api?username=KodEx-SA" alt="GitHub Alpha Stats" height="180px"/>
+<img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=6"></td></tr></tbody></table>
 
 <!-- Trophies full width -->
 <p align="left">
