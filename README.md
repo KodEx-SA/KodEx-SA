@@ -38,8 +38,6 @@
 
 ## 🚀 **THE ARCHITECT BEHIND THE CODE**
 
-<img align="right" height="300" width="400" alt="Coding Animation" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
-
 ```typescript
 class Developer {
   name = "Ashley";
@@ -60,6 +58,8 @@ class Developer {
   }
 }
 ```
+
+<img align="center" height="300" width="1000" alt="Coding Animation" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=f75c7e&center=true&width=600&lines=🤖+Building+the+future+with+code;🚀+Always+learning+and+growing;💡+Open+to+collaboration+and+new+ideas!" alt="Current Status" />
