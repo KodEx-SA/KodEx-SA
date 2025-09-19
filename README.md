@@ -1,100 +1,217 @@
-<p align="center">
-  <a href="https://github.com/KodEx-SA/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Software%20Developer;5%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=80&color=f75c7e&vCenter=true&pause=10&size=25" />
+<img src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="GitHub Banner" width="100%" />
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=100&color=f75c7e&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Software+Developer+%7C+Full-Stack+Developer;5%2B;+Years+of+Coding+Experience+%7C+Always+Learning" alt="Dynamic Title" />
+</div>
+
+<div align="center">
+  <a href="mailto:motsieashley31@gmail.com">
+    <img src="https://custom-icon-badges.demolab.com/badge/Email-FF6B35?style=for-the-badge&logo=mail&logoColor=white&labelColor=000000" alt="Email" />
   </a>
-</p>
-
-<p align="left">
-  <img height="350" width="1000" src="https://cdn.dribbble.com/users/219482/screenshots/14676444/media/28fa0b64b0454de0d0664e364e4f95fc.gif" alt="Banner" />
-</p>
-
-[![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
-
-# 💫 About Me
-📚 *“Forever a Student, sometimes a Teacher, always a Coder.”*  
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
-
-Hi there 👋, I’m Ashley — a passionate developer and tech enthusiast focused on turning coffee ☕ into code.  
-My projects range across web development, desktop applications, and backend systems, with experience in stacks like React + Vite, FastAPI, Django, and PHP + MySQL.  
-I enjoy taking ideas from scratch to functional products, whether it’s creating e‑commerce platforms, dashboards, authentication systems, chatbots, or utility apps like PDF search tools and duplicate file scanners (yes, because who really knows how many duplicate files they’ve got lying around?).
-
-I’m currently sharpening my skills in full‑stack development (MERN & Django), experimenting with APIs, databases, and deployment, and challenging myself with coding problems for fun (and sometimes frustration 😅).  
-My GitHub reflects both learning milestones and real‑world projects — so feel free to explore, connect, or collaborate! Just don’t ask me how many times I’ve “fixed it in production.”  
-
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=5000&size=28&duration=2000&pause=1000&center=true&width=800&lines=%22Transforming+Ideas+into+Scalable+Solutions+%F0%9F%9A%80%22" alt="Typing SVG" />
+  <a href="https://www.linkedin.com/in/your-linkedin/](https://www.linkedin.com/in/ashley-k-motsie-718686263/">
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
+  </a>
+<a href="https://www.youtube.com/@Ashley.Programmer">
+  <img src="https://custom-icon-badges.demolab.com/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="YouTube" />
+</a>
+<a href="https://web.facebook.com/ashley.programmer/">
+  <img src="https://custom-icon-badges.demolab.com/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" alt="Facebook" />
+</a>
+<a href="https://wa.me/27760932272">
+  <img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="WhatsApp" />
 </a>
 
-🔭 **Currently working on:** Full‑stack apps with MERN & Django, plus a few side projects for fun.  
-💡 **Goal:** To keep learning, keep building, and keep fixing (without always doing it in production 😅). 
+[![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KodEx-SA&bg_color=0d1117&color=f75c7e&line=79ff97&point=ffffff&area=true&area_color=f75c7e&hide_border=true&radius=10" alt="GitHub Activity Graph" width="95%" />
+</div>
 
 ---
 
-# 🚀 Featured Projects
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Animated Divider" />
+</div>
 
-### 🤖 [Chatbot Deployment](https://github.com/KodEx-SA/chatbot-deployment)
-> A robust chatbot deployment platform for web and messaging apps. Focused on scalable architecture, multi-channel integration, and smooth user experience.
+## 🚀 **THE ARCHITECT BEHIND THE CODE**
 
-### 💬 [ReactJs-ChatBot](https://github.com/KodEx-SA/ReactJs-ChatBot)
-> A fully customizable chatbot built with ReactJS. Designed for easy integration, conversational UI, and smart handling of user queries.
+<img align="right" height="300" width="400" alt="Coding Animation" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
 
-### 🛒 [Ubizo E-Commerce Landing Page](https://github.com/KodEx-SA/ubizo-e-commerce-landing-page)
-> A modern, responsive landing page for e-commerce businesses. Optimized for conversions, fast loading, and seamless browsing across devices.
-
----
-
-# 💻 Tech Stack
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-
----
-
-# 🌐 Find Me Online
-
-<a href="https://stackoverflow.com/users/codex" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="codex" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/motsieashley31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="motsieashley31" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/ashleydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ashleydev" height="30" width="40" /></a>
-
----
-
-# 📊 GitHub Stats
-
-<table><tbody><tr border="none"><td width="50%" align="center">
-<img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true">
-
-<img alt="Mark streak" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark"></td><td width="50%" align="center">
-<img src="https://github-stats-alpha.vercel.app/api?username=KodEx-SA" alt="GitHub Alpha Stats" height="180px"/>
-<img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=6"></td></tr></tbody></table>
-
-<!-- Trophies full width -->
-<p align="left">
+```typescript
+class Developer {
+  name = "Ashley";
+  role = "Software Developer & Tech Enthusiast";
+  location = "South Africa 🇿🇦";
   
-  ![](https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=onedark&no-frame=true&no-bg=false&margin-w=4)
+  currentFocus = [
+    "Full-Stack apps with MERN & Django",
+    "API development & deployment",
+    "Building scalable web platforms",
+    "Automation & utility tools"
+  ];
   
-</p>
+  mindset = "Forever a Student, sometimes a Teacher, always a Coder.";
+  
+  getVision(): string {
+    return "Transforming ideas into scalable solutions 🚀";
+  }
+}
+```
 
-<div align="left">
-  <h2> ✍️ Random Dev Quote </h2>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=f75c7e&center=true&width=600&lines=🤖+Building+the+future+with+code;🚀+Always+learning+and+growing;💡+Open+to+collaboration+and+new+ideas!" alt="Current Status" />
+</div>
+
+<br clear="right"/>
+
+---
+
+## 🛠️ **TECHNOLOGY ARSENAL**
+
+<div align="center">
+
+### **💻 Software Development**
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=000000)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=000000)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&labelColor=000000)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=000000)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=000000)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white&labelColor=000000)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&labelColor=000000)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=000000)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=000000)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=000000)
+![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=000000)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white&labelColor=000000)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white&labelColor=000000)
+![Terraform](https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white&labelColor=000000)
+![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
+
+</div>
+
+<details>
+<summary><b>🔧 Complete Technology Stack</b></summary>
+<br>
+<div align="center">
+<!-- Add more badges as needed -->
+  
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+<!-- Other Libraries -->
+![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+<!-- Databases & ORMs -->
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+<!-- UI/UX & Design -->
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+<!-- Security / Auth -->
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+
+</div>
+</details>
+
+---
+
+## 🏆 **FLAGSHIP PROJECTS**
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="33%" valign="top">
+        <div align="center">
+          <h3>🤖 <b>Chatbot Deployment</b></h3>
+          <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="100%" alt="Chatbot" />
+          <p><b>Multi-channel chatbot deployment platform for web and messaging apps.</b></p>
+          <p>💬 <em> NLP, PyTorch, Deep Learning  | Python Flask | Javascript | HTML | CSS </em></p>
+          <a href="https://github.com/KodEx-SA/chatbot-deployment"><img src="https://img.shields.io/badge/Source_Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Code" /></a>
+        </div>
+      </td>
+      <td width="33%" valign="top">
+        <div align="center">
+          <h3>💬 <b>ReactJs-ChatBot</b></h3>
+          <img src="https://media.giphy.com/media/xUPGcEliCc7bETyfO8/giphy.gif" width="100%" alt="React Chatbot" />
+          <p><b>Customizable ReactJS chatbot framework for smart, conversational UI.</b></p>
+          <p>⚡ <em>ReactJs | GroqAPI</em></p>
+          <a href="https://github.com/KodEx-SA/ReactJs-ChatBot"><img src="https://img.shields.io/badge/Source_Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Code" /></a>
+        </div>
+      </td>
+      <td width="33%" valign="top">
+        <div align="center">
+          <h3>🛒 <b>Ubizo E-Commerce Landing Page</b></h3>
+          <img src="https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif" width="100%" alt="E-commerce" />
+          <p><b>Modern, conversion-optimized landing page for online businesses.</b></p>
+          <p>🛒 <em>Python Flask | NLP, PyTorch, Deep Learning | Javascript | HTML | CSS</em></p>
+          <a href="https://github.com/KodEx-SA/ubizo-e-commerce-landing-page"><img src="https://img.shields.io/badge/Source_Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Code" /></a>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 📈 **PERFORMANCE METRICS**
+
+<div align="center">
+  <img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true">
+  <img alt="Mark streak" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark"></td><td width="50%" align="center">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f75c7e&text_color=ffffff&langs_count=8" width="40%" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" width="100%" />
+</div>
+
+---
+
+## 🌐 **FIND ME ONLINE HERE**
+
+<div align="center">
+  <a href="https://stackoverflow.com/users/codex" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stack Overflow" height="30" width="40" /></a>
+  <a href="https://www.hackerrank.com/motsieashley31" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" /></a>
+  <a href="https://www.leetcode.com/ashleydev" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
+  <br/><br/>
+  
+  <br/><br/>
+  [![](https://visitcount.itsvg.in/api?id=KodEx-SA&icon=0&color=0)](https://visitcount.itsvg.in)
+</div>
+
+## ✍️ **Random Dev Quote** 
+<div align="center">
   
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 </div>
 
-<div align="left">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/KodEX-SA/KodEx-SA/output/github-contribution-grid-snake.svg" />
-  
-  <br/><br/><br/>
-</div>
-
-<div align="left">
-<h2> 🔝 Top Contributed Repo </h2>
-  
-  ![](https://github-contributor-stats.vercel.app/api?username=KodEx-SA&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-</div>
-
 ---
-[![](https://visitcount.itsvg.in/api?id=KodEx-SA&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=666666&center=true&width=500&lines=Transforming+ideas+into+scalable+solutions;Collaborate%2C+learn%2C+and+build+with+me!" alt="Footer Message" />
+</div>
+
+<!--Animated contribution snake-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Footer Animation" />
+</div>
