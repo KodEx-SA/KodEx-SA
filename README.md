@@ -21,6 +21,7 @@
   <img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="WhatsApp" />
 </a>
 
+  
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
 </div>
 
