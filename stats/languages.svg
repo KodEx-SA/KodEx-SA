@@ -108,11 +108,11 @@
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">HTML</text>
-      <text x="215" y="34" class="lang-name">38.03%</text>
+      <text x="215" y="34" class="lang-name">37.92%</text>
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="38.02984180847348%">
+      <svg data-testid="lang-progress" width="37.91845175285935%">
         <rect
             height="8"
             fill="#e34c26"
@@ -127,11 +127,11 @@
   </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 600ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
-      <text x="215" y="34" class="lang-name">27.43%</text>
+      <text x="215" y="34" class="lang-name">27.48%</text>
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="27.427017316233343%">
+      <svg data-testid="lang-progress" width="27.481196981129813%">
         <rect
             height="8"
             fill="#663399"
@@ -146,11 +146,11 @@
   </g><g transform="translate(0, 80)">
     <g class="stagger" style="animation-delay: 750ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
-      <text x="215" y="34" class="lang-name">25.98%</text>
+      <text x="215" y="34" class="lang-name">26.03%</text>
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="25.977493886920506%">
+      <svg data-testid="lang-progress" width="26.028591674985556%">
         <rect
             height="8"
             fill="#f1e05a"
@@ -169,7 +169,7 @@
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="8.24751734118469%">
+      <svg data-testid="lang-progress" width="8.253402920691485%">
         <rect
             height="8"
             fill="#3572A5"
