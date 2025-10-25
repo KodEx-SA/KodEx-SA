@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" alt="GitHub Banner" height=400 width="100%" />
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" alt="GitHub Banner" height=400 width="100%" />
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=100&color=f75c7e&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Software+Developer+%7C+Full-Stack+Developer;5%2B;+Years+of+Coding+Experience+%7C+Always+Learning" alt="Dynamic Title" />
