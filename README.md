@@ -1,33 +1,36 @@
 <img src="https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif" alt="GitHub Banner" height=400 width="100%" />
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=100&color=f75c7e&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Software+Developer+%7C+Full-Stack+Developer;5%2B;+Years+of+Coding+Experience+%7C+Always+Learning" alt="Dynamic Title" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=100&color=34eb5c&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Software+Developer+%7C+Full-Stack+Developer;5%2B;+Years+of+Coding+Experience+%7C+Always+Learning" alt="Dynamic Title" />
 </div>
 
 <div align="center">
   <a href="mailto:motsieashley31@gmail.com">
-    <img src="https://custom-icon-badges.demolab.com/badge/Email-FF6B35?style=for-the-badge&logo=mail&logoColor=white&labelColor=000000" alt="Email" />
+    <img src="https://custom-icon-badges.demolab.com/badge/Email-34eb5c?style=for-the-badge&logo=mail&logoColor=white&labelColor=000000" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/ashley-k-motsie-718686263/">
-    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
   </a>
 <a href="https://www.youtube.com/@Ashley.Programmer">
-  <img src="https://custom-icon-badges.demolab.com/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="YouTube" />
+  <img src="https://custom-icon-badges.demolab.com/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="YouTube" />
 </a>
 <a href="https://web.facebook.com/ashley.programmer/">
-  <img src="https://custom-icon-badges.demolab.com/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" alt="Facebook" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Facebook-34eb5c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" alt="Facebook" />
 </a>
 <a href="https://wa.me/27760932272">
-  <img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="WhatsApp" />
+  <img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-34eb5c?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="WhatsApp" />
 </a>
 
+<br/>
+
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
+
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KodEx-SA&bg_color=0d1117&color=f75c7e&line=79ff97&point=ffffff&area=true&area_color=f75c7e&hide_border=true&radius=10" alt="GitHub Activity Graph" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KodEx-SA&bg_color=0d1117&color=34eb5c&line=13e065&point=ffffff&area=true&area_color=34eb5c&hide_border=true&radius=10" alt="GitHub Activity Graph" width="95%" />
 </div>
 
 ---
@@ -62,7 +65,7 @@ class Developer {
 <img align="center" height="300" width="1000" alt="Coding Animation" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=f75c7e&center=true&width=600&lines=🤖+Building+the+future+with+code;🚀+Always+learning+and+growing;💡+Open+to+collaboration+and+new+ideas!" alt="Current Status" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=34eb5c&center=true&width=600&lines=🤖+Building+the+future+with+code;🚀+Always+learning+and+growing;💡+Open+to+collaboration+and+new+ideas!" alt="Current Status" />
 </div>
 
 <br clear="right"/>
@@ -166,16 +169,16 @@ class Developer {
 ## 📈 **PERFORMANCE METRICS**
 
 <div align="center">
-  <img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true">
-  <img alt="Mark streak" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark"></td><td width="50%" align="center">
+  <img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117">
+  <img alt="Mark streak" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065"></td><td width="50%" align="center">
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f75c7e&text_color=ffffff&langs_count=8" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=34eb5c&text_color=13e065&langs_count=8" width="40%" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6&title_color=34eb5c&text_color=13e065" width="100%" />
 </div>
 
 ---
@@ -189,7 +192,7 @@ class Developer {
   <br/><br/>
  
   <br/><br/>
-  [![](https://visitcount.itsvg.in/api?id=KodEx-SA&icon=0&color=0)](https://visitcount.itsvg.in)
+  [![](https://visitcount.itsvg.in/api?id=KodEx-SA&icon=0&color=34eb5c)](https://visitcount.itsvg.in)
 </div>
 
 ## ✍️ **Random Dev Quote** 
@@ -202,7 +205,7 @@ class Developer {
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=666666&center=true&width=500&lines=Transforming+ideas+into+scalable+solutions;Collaborate%2C+learn%2C+and+build+with+me!" alt="Footer Message" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=13e065&center=true&width=500&lines=Transforming+ideas+into+scalable+solutions;Collaborate%2C+learn%2C+and+build+with+me!" alt="Footer Message" />
 </div>
 
 <!--Animated contribution snake-->
