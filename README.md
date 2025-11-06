@@ -1,24 +1,27 @@
 <img src="https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif" alt="GitHub Banner" height=400 width="100%" />
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=100&color=34eb5c&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Software+Developer+%7C+Full-Stack+Developer;5%2B;+Years+of+Coding+Experience+%7C+Always+Learning" alt="Dynamic Title" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&pause=100&color=34eb5c&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Ashley+Motsie+%7C+Full-Stack+Developer;Passionate+Builder+of+Web+and+AI;Always+Learning.+Always+Coding." alt="Typing" />
 </div>
 
 <div align="center">
-  <a href="mailto:motsieashley31@gmail.com">
-    <img src="https://custom-icon-badges.demolab.com/badge/Email-34eb5c?style=for-the-badge&logo=mail&logoColor=white&labelColor=000000" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/ashley-k-motsie-718686263/">
-    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>
+<a href="mailto:motsieashley31@gmail.com">
+  <img src="https://img.shields.io/badge/Email-34eb5c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
+</a>
+<a href="https://www.linkedin.com/in/ashley-k-motsie-718686263/">
+  <img src="https://img.shields.io/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
+</a>
 <a href="https://www.youtube.com/@Ashley.Programmer">
-  <img src="https://custom-icon-badges.demolab.com/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="YouTube" />
+  <img src="https://img.shields.io/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="YouTube" />
 </a>
 <a href="https://web.facebook.com/ashley.programmer/">
-  <img src="https://custom-icon-badges.demolab.com/badge/Facebook-34eb5c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" alt="Facebook" />
+  <img src="https://img.shields.io/badge/Facebook-34eb5c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" alt="Facebook" />
 </a>
 <a href="https://wa.me/27760932272">
-  <img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-34eb5c?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="WhatsApp" />
+  <img src="https://img.shields.io/badge/WhatsApp-34eb5c?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="WhatsApp" />
+</a>
+<a href="https://stackoverflow.com/users/codex">
+  <img src="https://img.shields.io/badge/Stackoverflow-34eb5c?style=for-the-badge&logo=stackoverflow&logoColor=white&labelColor=000000" alt="Stack Overflow" />
 </a>
 
 <br/>
@@ -43,24 +46,33 @@
 
 ```typescript
 class Developer {
-  name = "Ashley";
-  role = "Software Developer & Tech Enthusiast";
+  name = "Ashley Motsie";
   location = "South Africa 🇿🇦";
-  
+  role = "Full-Stack Developer | Tech Explorer";
   currentFocus = [
-    "Full-Stack apps with MERN & Django",
-    "API development & deployment",
-    "Building scalable web platforms",
-    "Automation & utility tools"
+    "Modern MERN stack apps",
+    "Django REST APIs",
+    "AI, NLP, ML with Python",
+    "Cloud automation & scalability"
   ];
-  
-  mindset = "Forever a Student, sometimes a Teacher, always a Coder.";
-  
+  motto = "Learn, Code, Build, Repeat.";
   getVision(): string {
-    return "Transforming ideas into scalable solutions 🚀";
+    return "Empowering ideas with scalable tech 🚀";
   }
 }
 ```
+
+## 🕰️ Experience
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/4%2B_years_experience-34eb5c?style=for-the-badge&logo=github&logoColor=white" alt="4+ Years Experience" />
+
+<br>
+<span>Developer with 4+ years hands-on experience building, deploying, and scaling modern apps in MERN, Django, cloud, and automation.</span>
+</div>
+
+---
 
 <img align="center" height="300" width="1000" alt="Coding Animation" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
 
