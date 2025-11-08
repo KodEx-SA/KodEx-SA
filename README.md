@@ -28,6 +28,10 @@
 
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
 
+
+<!-- Profile Views -->
+<img src="https://komarev.com/ghpvc/?username=KodEx-SA&label=Profile%20views&color=e64105&style=for-the-badge" />
+
 </div>
 
 <br />
