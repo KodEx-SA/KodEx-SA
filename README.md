@@ -165,11 +165,11 @@ class Developer {
       </td>
       <td width="33%" valign="top">
         <div align="center">
-          <h3>🛒 <b>Ubizo E-Commerce Landing Page</b></h3>
-          <img src="https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif" width="100%" alt="E-commerce" />
-          <p><b>Modern, conversion-optimized landing page for online businesses.</b></p>
-          <p>🛒 <em>Python Flask | NLP, PyTorch, Deep Learning | Javascript | HTML | CSS</em></p>
-          <a href="https://github.com/KodEx-SA/ubizo-e-commerce-landing-page"><img src="https://img.shields.io/badge/Source_Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Code" /></a>
+          <h3>🛒 <b>EV Charging Dashboard</b></h3>
+          <img src="https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif" width="100%" alt="Dashboard" />
+          <p><b>Modern, conversion-optimized dashboard for Electric Vehicle charging solutions.</b></p>
+          <p>🛒 <em>Typescript | Tailwindcss | Next.Js</em></p>
+          <a href="https://github.com/KodEx-SA/ev-dashboard-implementation"><img src="https://img.shields.io/badge/Source_Code-000000?style=for-the-badge&logo=github&logoColor=white" alt="Code" /></a>
         </div>
       </td>
     </tr>
