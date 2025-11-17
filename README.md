@@ -66,7 +66,7 @@ class Developer {
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/4%2B_years_experience-34eb5c?style=for-the-badge&logo=github&logoColor=white" alt="4+ Years Experience" />
+<img src="https://img.shields.io/badge/4%2B_years_experience-34eb5c?style=for-the-badge&logo=github&logoColor=white&color=black" alt="4+ Years Experience" />
 
 <br>
 <span>Developer with 4+ years hands-on experience building, deploying, and scaling modern apps in MERN, Django, cloud, and automation.</span>
