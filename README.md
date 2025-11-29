@@ -29,7 +29,6 @@
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
 
 </div>
-
 <br />
 
 <div align="center">
