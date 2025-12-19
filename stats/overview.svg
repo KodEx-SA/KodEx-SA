@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ashley K Motsie's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 51, Total Commits  (last year) : 631, Total PRs: 104, Total Issues: 0, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 51, Total Commits  (last year) : 633, Total PRs: 106, Total Issues: 0, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 86.28734494200008;
+        stroke-dashoffset: 85.84070821730876;
       }
     }
   
@@ -155,7 +155,7 @@
         x="199.01"
         y="12.5"
         data-testid="commits"
-      >631</text>
+      >633</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -166,7 +166,7 @@
         x="199.01"
         y="12.5"
         data-testid="prs"
-      >104</text>
+      >106</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
