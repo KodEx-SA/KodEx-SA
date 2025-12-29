@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:34eb5c,100:ffffff&height=200&section=header&text=Ashley%20Motsie&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20AI%20Engineer%20|%20Tech%20Innovator&descAlignY=55&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:000000,100:000000&height=200&section=header&text=Ashley%20K%20Motsie&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20AI%20Engineer%20|%20Tech%20Innovator&descAlignY=55&descAlign=50" width="100%" />
 </div>
 
 <div align="center">
@@ -495,8 +495,15 @@ const collaborationOpportunities = {
 <!-- Animated divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
+<!-- Binary Matrix Footer Effect -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:34eb5c,100:ffffff&height=120&section=footer" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=11&duration=3000&pause=1000&color=34EB5C&center=true&vCenter=true&width=900&height=40&lines=01010011+01111001+01110011+01110100+01100101+01101101+00100000+01010011+01110100+01100001+01110100+01110101+01110011+00111010+00100000+01000001+01100011+01110100+01101001+01110110+01100101+00100000+01111110+00100000+01000001+01101100+01101100+00100000+01010011+01111001+01110011+01110100+01100101+01101101+01110011+00100000+01001111+01110000+01100101+01110010+01100001+01110100+01101001+01101111+01101110+01100001+01101100" alt="Binary Footer" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,10:1a1a1a,30:0a0a0a,50:1a1a1a,70:0a0a0a,90:1a1a1a,100:000000&height=120&section=footer&text=SYSTEM%20ONLINE&fontSize=24&fontColor=34eb5c&animation=twinkling" width="100%" />
 </div>
 
 <div align="center">
