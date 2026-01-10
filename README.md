@@ -39,29 +39,30 @@ const ashley = {
   name: "Ashley Koketso Motsie",
   location: "Rustenburg, South Africa 🇿🇦",
   roles: [
-    "Jr Software Developer & IT Technician @ ETS",
     "AI Software Developer @ AI Global Networks",
+    "Jr Software Developer & IT Technician @ Eullafied Tech Solutions",
     "Web Developer & Graphic Designer @ Maps Media Productions"
   ],
   experience: "4+ years",
   
   currentProjects: [
-    "eDuBaskets - Uber-style student hamper delivery platform",
-    "AI-powered portfolio assistant chatbot",
-    "EV Charging Dashboard with analytics"
+    "eDuBaskets - Next.js delivery platform (Launch: Jan 30, 2026)",
+    "AI Global Networks website redesign (black/orange/white theme)",
+    "AI-powered chatbot with secure backend architecture"
   ],
   
   learning: [
-    "Advanced Python for competitive programming",
+    "Advanced Python for HackerRank competitive programming",
     "Cloud automation & scalability",
-    "AI/ML model deployment"
+    "AI/ML model deployment & optimization"
   ],
   
   expertise: {
-    frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    backend: ["Node.js", "Django", "FastAPI", "PostgreSQL"],
-    ai: ["NLP", "PyTorch", "TensorFlow", "Groq API"],
-    cloud: ["AWS", "Azure", "Vercel", "Docker"]
+    frontend: ["React", "Next.js 15", "TypeScript", "Tailwind CSS", "Vite"],
+    backend: ["Node.js", "Django", "FastAPI", "PostgreSQL", "Prisma"],
+    ai: ["NLP", "PyTorch", "TensorFlow", "Groq API", "Chatbot Development"],
+    cloud: ["AWS", "Azure", "Vercel", "Docker", "Neon Database"],
+    tools: ["Git", "Prisma ORM", "NextAuth.js", "JWT", "REST APIs"]
   },
   
   motto: "Transforming ideas into scalable solutions 🚀"
@@ -80,19 +81,21 @@ const ashley = {
 <td width="50%" valign="top">
 
 ### 🔭 Current Focus
-- 🚀 Building **eDuBaskets** - Next.js delivery platform
-- 🤖 Developing AI-powered web applications
-- ☁️ Mastering cloud architecture & DevOps
-- 💡 Creating pricing strategies for AI services
+- 🚀 **eDuBaskets Platform** - 70% complete, launching Jan 30, 2026
+- 🤖 **AI Global Networks** - Complete website redesign in progress
+- ☁️ Mastering cloud architecture & DevOps best practices
+- 🐍 Intensive Python syntax mastery for competitive coding
+- 💼 Preparing for senior developer role transitions
 
 </td>
 <td width="50%" valign="top">
 
-### 🌱 Learning Journey
-- 🐍 Intensive Python syntax mastery
-- 🏆 Conquering HackerRank challenges
-- 📊 Advanced data structures & algorithms
-- 🔐 Security best practices & authentication
+### 🌱 Recent Achievements
+- ✅ Built EV Charging Dashboard with full CRUD & analytics
+- ✅ Completed Mpetha Construction website project
+- ✅ Fixed critical mobile navigation issues for AI Global Networks
+- ✅ Enhanced portfolio with AI chatbot "Smith" (Groq-powered)
+- ✅ Presented Sasbo AI Symposium 2026 website to clients
 
 </td>
 </tr>
@@ -236,7 +239,7 @@ const ashley = {
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=000000)
 ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white&labelColor=000000)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white&labelColor=34eb5c)
-![Cisco](https://img.shields.io/badge/Cisco-049fd9?style=for-the-badge&logo=cisco&logoColor=white&labelColor=000000)
+![NextAuth](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=next.js&logoColor=white&labelColor=34eb5c)
 
 </td>
 </tr>
@@ -261,15 +264,21 @@ const ashley = {
 
 **Uber-Style Delivery Revolution**
 
-Next-generation platform for student hamper delivery with real-time tracking, smart routing, and instant notifications
+Next-generation platform for student hamper delivery with real-time tracking, smart routing, and instant notifications. Built for scalability and user experience.
 
 **TECH CORE:**  
 `Next.js 15` `TypeScript` `PostgreSQL` `Prisma 5` `NextAuth` `Tailwind`
 
+**FEATURES:**  
+✓ Real-time order tracking  
+✓ Secure authentication  
+✓ Payment integration  
+✓ Admin dashboard
+
 **STATUS:** `◉ 70% COMPLETE`  
 **LAUNCH:** `Jan 30, 2026`
 
-[![Status](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-34eb5c?style=for-the-badge&labelColor=000000)](https://github.com/KodEx-SA)
+[![GitHub](https://img.shields.io/badge/VIEW_CODE-34eb5c?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/KodEx-SA)
 
 </td>
 <td width="33%" align="center">
@@ -279,10 +288,16 @@ Next-generation platform for student hamper delivery with real-time tracking, sm
 
 **Neural Conversation Engine**
 
-Multi-channel NLP chatbot with deep learning, context awareness, and PyTorch-powered intelligence
+Production-ready multi-channel NLP chatbot with deep learning, context awareness, and PyTorch-powered intelligence for AI Global Networks.
 
 **TECH CORE:**  
 `Python` `PyTorch` `Flask` `NLP` `Deep Learning` `TensorFlow`
+
+**FEATURES:**  
+✓ Context-aware responses  
+✓ Multi-channel support  
+✓ Secure backend  
+✓ Custom training
 
 **STATUS:** `◉ DEPLOYED`  
 **CHANNELS:** `Web` `Mobile` `API`
@@ -297,10 +312,16 @@ Multi-channel NLP chatbot with deep learning, context awareness, and PyTorch-pow
 
 **Enterprise Analytics Hub**
 
-Real-time charging station management with advanced analytics, role-based access, and cloud monitoring
+Full-stack charging station management system with advanced analytics, role-based access control, and real-time monitoring capabilities.
 
 **TECH CORE:**  
-`Next.js` `TypeScript` `PostgreSQL` `NextAuth` `Neon` `Charts.js`
+`Next.js 16` `TypeScript` `PostgreSQL` `NextAuth` `Neon` `Charts.js`
+
+**FEATURES:**  
+✓ CRUD operations  
+✓ Role-based access  
+✓ Real-time analytics  
+✓ Session tracking
 
 **STATUS:** `◉ PRODUCTION`  
 **USERS:** `Enterprise Scale`
@@ -325,7 +346,7 @@ Real-time charging station management with advanced analytics, role-based access
 
 **Intelligent UI Conversation System**
 
-Customizable React-based chatbot with Groq API integration, smart context handling, and real-time responses
+Customizable React-based chatbot with Groq API integration, smart context handling, and real-time responses for modern web applications.
 
 **ARCHITECTURE:**  
 `React 18` `Groq Cloud API` `Context API` `Custom Hooks`
@@ -334,7 +355,8 @@ Customizable React-based chatbot with Groq API integration, smart context handli
 ✓ Real-time AI responses  
 ✓ Context preservation  
 ✓ Customizable UI themes  
-✓ Easy integration
+✓ Easy integration  
+✓ TypeScript support
 
 [![Repo](https://img.shields.io/badge/SOURCE-34eb5c?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/KodEx-SA/ReactJs-ChatBot)
 ![Stars](https://img.shields.io/github/stars/KodEx-SA/ReactJs-ChatBot?style=for-the-badge&logo=github&labelColor=000000&color=34eb5c)
@@ -347,19 +369,67 @@ Customizable React-based chatbot with Groq API integration, smart context handli
 
 **Interactive Personal Brand Hub**
 
-Modern portfolio with AI assistant "Smith" - your personal AI guide powered by Groq, featuring green/dark theming and comprehensive tech showcase
+Modern portfolio with AI assistant "Smith" - your personal AI guide powered by Groq API, featuring green/dark theming and comprehensive tech showcase.
 
 **STACK:**  
 `React` `Vite` `Groq API` `Tailwind CSS` `Framer Motion`
 
 **CAPABILITIES:**  
 ✓ AI-powered assistance  
-✓ Project showcase  
-✓ Skill visualization  
-✓ Contact integration
+✓ Dynamic project showcase  
+✓ Interactive skill visualization  
+✓ Contact integration  
+✓ Responsive design
 
 [![Live](https://img.shields.io/badge/LIVE_DEMO-000000?style=for-the-badge&logo=google-chrome&logoColor=34eb5c)](https://my-portfo-lio-alpha.vercel.app/)
 ![Status](https://img.shields.io/badge/STATUS-ACTIVE-34eb5c?style=for-the-badge&labelColor=000000)
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+#### 🏢 **Mpetha Construction Website**
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" alt="Construction Website"/>
+
+**Professional Corporate Web Presence**
+
+Complete business website built with traditional HTML, CSS, and JavaScript. Handles all aspects from planning to deployment with responsive design.
+
+**BUILT WITH:**  
+`HTML5` `CSS3` `JavaScript` `Responsive Design`
+
+**FEATURES:**  
+✓ Service showcase  
+✓ Project gallery  
+✓ Contact forms  
+✓ Mobile-optimized
+
+![Status](https://img.shields.io/badge/STATUS-COMPLETED-34eb5c?style=for-the-badge&labelColor=000000)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🎓 **Sasbo AI Symposium 2026**
+<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="100%" alt="Symposium Website"/>
+
+**Event Website with Advanced Animations**
+
+Modern event website built with Next.js 15 featuring advanced animations and smooth user experience. Successfully presented to clients.
+
+**TECH STACK:**  
+`Next.js 15` `Framer Motion` `Tailwind CSS` `TypeScript`
+
+**HIGHLIGHTS:**  
+✓ Advanced animations  
+✓ Event registration  
+✓ Responsive layout  
+✓ Client-approved design
+
+![Status](https://img.shields.io/badge/STATUS-DELIVERED-34eb5c?style=for-the-badge&labelColor=000000)
 
 </td>
 </tr>
@@ -373,17 +443,107 @@ Modern portfolio with AI assistant "Smith" - your personal AI guide powered by G
 ## 📊 **GITHUB ANALYTICS**
 
 <div align="center">
-  <img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117">
-  <img alt="Mark streak" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065"></td><td width="50%" align="center">
+  <img align="center" src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117" width="49%" />
+  <img align="center" src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065" width="49%" />
 </div>
 
+<br/>
+
 <div align="center">
-  <!-- Increase langs_count so smaller languages like TypeScript are more likely to appear -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=34eb5c&text_color=13e065&langs_count=10" width="40%" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6&title_color=34eb5c&text_color=13e065" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7&title_color=34eb5c&text_color=13e065" width="100%" />
+</div>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 💼 **PROFESSIONAL EXPERIENCE**
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
+### 🤖 **AI Global Networks**
+**AI Software Developer**  
+*Johannesburg, South Africa*
+
+- Developing AI-powered chatbot applications
+- Website redesign (black/orange/white theme)
+- Resolved critical mobile navigation issues
+- Backend architecture & security implementation
+
+</td>
+<td width="33%" valign="top">
+
+### 💻 **Eullafied Tech Solutions**
+**Jr Software Developer & IT Technician**  
+*North West, South Africa*
+
+- Agile development methodologies
+- IT infrastructure management
+- Full-stack application development
+- Technical support & troubleshooting
+
+</td>
+<td width="33%" valign="top">
+
+### 🎨 **Maps Media Productions**
+**Web Developer & Graphic Designer**  
+*North West, South Africa*
+
+- Custom website development
+- Graphic design & branding
+- Client project management
+- Digital media production
+
+</td>
+</tr>
+</table>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🏆 **SKILLS & EXPERTISE**
+
+<div align="center">
+
+```typescript
+const skills = {
+  development: {
+    fullStack: ["Next.js", "React", "Node.js", "TypeScript", "PostgreSQL"],
+    frontend: ["Responsive Design", "UI/UX", "Tailwind CSS", "Framer Motion"],
+    backend: ["RESTful APIs", "GraphQL", "Database Design", "Authentication"],
+    deployment: ["Vercel", "Docker", "CI/CD", "Cloud Platforms"]
+  },
+  
+  ai_ml: {
+    frameworks: ["PyTorch", "TensorFlow", "Scikit-learn"],
+    applications: ["NLP", "Chatbots", "Deep Learning", "Model Deployment"],
+    apis: ["Groq API", "OpenAI", "Custom AI Solutions"]
+  },
+  
+  tools: {
+    version_control: ["Git", "GitHub", "Collaboration Workflows"],
+    design: ["Figma", "Adobe Photoshop", "UI/UX Design"],
+    databases: ["PostgreSQL", "MongoDB", "Prisma ORM", "Neon"],
+    auth: ["NextAuth.js", "JWT", "OAuth", "Session Management"]
+  },
+  
+  soft_skills: [
+    "Problem Solving",
+    "Technical Communication",
+    "Project Management",
+    "Continuous Learning",
+    "Client Presentation"
+  ]
+};
+```
+
 </div>
 
 <!-- Animated divider -->
@@ -403,13 +563,16 @@ Modern portfolio with AI assistant "Smith" - your personal AI guide powered by G
 <a href="https://wa.me/27760932272">
   <img src="https://img.shields.io/badge/WhatsApp-Message_Me-34eb5c?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
 </a>
+<a href="https://my-portfo-lio-alpha.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-Visit_Site-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c"/>
+</a>
 
 ### 🏅 **Coding Platforms**
 <a href="https://www.hackerrank.com/motsieashley31" target="_blank">
   <img src="https://img.shields.io/badge/HackerRank-Follow-000000?style=for-the-badge&logo=hackerrank&logoColor=34eb5c"/>
 </a>
-<a href="https://www.leetcode.com/ashleydev" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-Follow-ffffff?style=for-the-badge&logo=leetcode&logoColor=000000&labelColor=34eb5c"/>
+<a href="https://github.com/KodEx-SA" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Follow-34eb5c?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/>
 </a>
 <a href="https://stackoverflow.com/users/codex" target="_blank">
   <img src="https://img.shields.io/badge/Stack_Overflow-Follow-34eb5c?style=for-the-badge&logo=stackoverflow&logoColor=white&labelColor=000000"/>
@@ -428,15 +591,7 @@ Modern portfolio with AI assistant "Smith" - your personal AI guide powered by G
 <!-- Animated divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-## 💡 **DEV QUOTE OF THE DAY**
-
-<div align="center">
-  
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do&author=Steve%20Jobs&border=true&borderColor=34eb5c)
-
-</div>
-
-## 💡 **RANDOM DEV QUOTES**
+## 💡 **INSPIRATIONAL QUOTES**
 
 <div align="center">
 
@@ -454,19 +609,28 @@ Modern portfolio with AI assistant "Smith" - your personal AI guide powered by G
 ```typescript
 const collaborationOpportunities = {
   openTo: [
-    "💼 Full-time & Contract opportunities",
-    "🚀 Exciting startup projects",
-    "🤖 AI/ML research & development",
+    "💼 Full-time & Senior Developer positions",
+    "🚀 Exciting startup projects & ventures",
+    "🤖 AI/ML research & development initiatives",
     "🌐 Open source contributions",
-    "📚 Technical writing & mentorship"
+    "📚 Technical writing, mentorship & speaking",
+    "🎯 Freelance consulting & contract work"
   ],
   
   canHelpWith: [
-    "Full-stack web application development",
-    "AI chatbot implementation & deployment",
-    "Cloud infrastructure & DevOps setup",
-    "Technical architecture & consulting"
+    "Full-stack web application development (Next.js, React, TypeScript)",
+    "AI chatbot implementation & deployment (PyTorch, TensorFlow)",
+    "Cloud infrastructure & DevOps setup (AWS, Azure, Vercel)",
+    "Database design & optimization (PostgreSQL, Prisma)",
+    "Technical architecture & consulting",
+    "UI/UX design & implementation"
   ],
+  
+  availability: {
+    timezone: "SAST (UTC+2)",
+    preferredContact: "Email or WhatsApp",
+    responseTime: "Within 24 hours"
+  },
   
   reachOut: "motsieashley31@gmail.com"
 };
@@ -479,11 +643,14 @@ const collaborationOpportunities = {
 <br/>
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=000000)](https://github.com/sponsors/KodEx-SA)
+[![Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-☕-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000&labelColor=34eb5c)](https://www.buymeacoffee.com)
 
 </div>
 
 <!-- Animated divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📈 **GITHUB CONTRIBUTION GRAPH**
 
 <!--Animated contribution snake-->
 <picture>
@@ -505,6 +672,8 @@ const collaborationOpportunities = {
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,10:1a1a1a,30:0a0a0a,50:1a1a1a,70:0a0a0a,90:1a1a1a,100:000000&height=120&section=footer&text=SYSTEM%20ONLINE&fontSize=24&fontColor=34eb5c&animation=twinkling" width="100%" />
 </div>
+
+---
 
 <div align="center">
   
