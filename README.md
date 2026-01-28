@@ -12,7 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
 [![YouTube](https://img.shields.io/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@Ashley.Programmer)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-34eb5c?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000)](https://wa.me/27760932272)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://my-portfo-lio-alpha.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://chatdevhub.netlify.app/)
 
 <!-- Analytics badges -->
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
