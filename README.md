@@ -449,16 +449,6 @@ Modern event website built with Next.js 15 featuring advanced animations and smo
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KodEx-SA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=34eb5c&text_color=13e065&langs_count=10" width="40%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KodEx-SA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7&title_color=34eb5c&text_color=13e065" width="100%" />
-</div>
-
 <!-- Animated divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
