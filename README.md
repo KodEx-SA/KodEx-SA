@@ -103,7 +103,7 @@ const ashley = {
 
 <div align="center">
 
-*Open to full-time roles, freelance, and collaboration — reach out anytime.*  
+*Open to full-time roles, freelance, and collaboration — reach out anytime..*  
 **motsieashley31@gmail.com** · SAST (UTC+2) · Responds within 24hrs
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:000000&height=100&section=footer&text=SYSTEM+ONLINE&fontSize=18&fontColor=34eb5c&animation=twinkling" width="100%" />
