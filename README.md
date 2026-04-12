@@ -75,10 +75,11 @@ const ashley = {
 | Project | Description | Stack | Status |
 |--------|-------------|-------|--------|
 | **[eDuBaskets](https://github.com/KodEx-SA)** | Student hamper delivery platform for SA universities | Next.js 15, TypeScript, Prisma, PayFast | 🟡 In Progress |
-| **[AI Chatbot System](https://github.com/KodEx-SA/chatbot-deployment)** | Production NLP chatbot for AI Global Networks | Python, PyTorch, Flask, TensorFlow | 🟢 Live |
-| **[EV Dashboard](https://github.com/KodEx-SA/ev-dashboard-implementation)** | Enterprise charging station analytics hub | Next.js, PostgreSQL, Neon, NextAuth | 🟢 Live |
+| **[Sasbo AI Symposium 2026](https://github.com/KodEx-SA)** | Live client event site with scroll animations & countdown | Next.js 15, TypeScript, Tailwind v4, Framer Motion | 🟢 Live |
+| **[EV Dashboard](https://github.com/KodEx-SA/ev-dashboard-implementation)** | Enterprise charging station analytics hub | Next.js, PostgreSQL, Neon, NextAuth | 🔵 In Development |
 | **[ReactJS Chatbot](https://github.com/KodEx-SA/ReactJs-ChatBot)** | Groq-powered React chatbot framework | React 18, Groq API, TypeScript | 🟢 Live |
 | **[Portfolio + "Smith" AI](https://my-portfo-lio-alpha.vercel.app/)** | Personal brand hub with built-in AI assistant | React, Vite, Groq, Framer Motion | 🟢 Live |
+| **[SafeCircle](https://github.com/KodEx-SA)** | Consent-based family safety app with real-time location | Expo, Express, Neon PostgreSQL, Socket.io | 🔵 In Development |
 
 ---
 
