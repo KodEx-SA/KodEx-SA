@@ -10,7 +10,7 @@
 
 [![Email](https://img.shields.io/badge/Email-34eb5c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:motsieashley31@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://chatdevhub.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://chatdevhub.vercel.app/)
 [![YouTube](https://img.shields.io/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@Ashley.Programmer)
 
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
