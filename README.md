@@ -3,14 +3,14 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&pause=1000&color=34EB5C&center=true&vCenter=true&width=650&height=60&lines=Building+the+Future+with+Code+%F0%9F%9A%80;Software-Developer+%7C+AI+%7C+Cloud;3%2B+Years+of+Innovation." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&pause=1000&color=34EB5C&center=true&vCenter=true&width=650&height=60&lines=Building+the+Future+with+Code+%F0%9F%9A%80;Software+Developer+%7C+AI+%7C+Cloud;4%2B+Years+of+Innovation." alt="Typing SVG" />
 </div>
 
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-34eb5c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:motsieashley31@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://chatdevhub.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://ashleydevhub.vercel.app/)
 [![YouTube](https://img.shields.io/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@Ashley.Programmer)
 
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
@@ -30,7 +30,7 @@ const ashley = {
     "Web Developer & Graphic Designer @ Maps Media Productions"
   ],
   stack: ["Next.js 15", "React", "TypeScript", "Python", "PostgreSQL", "Groq API"],
-  currently: ["eDuBaskets platform", "AI chatbot systems", "Cloud architecture"],
+  currently: ["Property Management Platform (Turborepo + Supabase)", "Smith AI Chatbot", "SafeCircle Safety App"],
   motto: "Transforming ideas into scalable solutions 🚀"
 };
 ```
@@ -54,11 +54,13 @@ const ashley = {
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 **AI / ML**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq_API-34eb5c?style=flat-square&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=34eb5c)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LiveKit](https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square&logoColor=white)
 
 **Cloud & DevOps**  
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
@@ -75,11 +77,10 @@ const ashley = {
 | Project | Description | Stack | Status |
 |--------|-------------|-------|--------|
 | **[eDuBaskets](https://github.com/KodEx-SA)** | Student hamper delivery platform for SA universities | Next.js 15, TypeScript, Prisma, PayFast | 🟡 In Progress |
-| **[Sasbo AI Symposium 2026](https://github.com/KodEx-SA)** | Live client event site with scroll animations & countdown | Next.js 15, TypeScript, Tailwind v4, Framer Motion | 🟢 Live |
+| **[Sasbo AI Symposium 2026](https://sasbo-ai-symposium.vercel.app/)** | Live client event site with scroll animations & countdown | Next.js 15, TypeScript, Tailwind v4, Framer Motion | 🟢 Live |
 | **[EV Dashboard](https://github.com/KodEx-SA/ev-dashboard-implementation)** | Enterprise charging station analytics hub | Next.js, PostgreSQL, Neon, NextAuth | 🔵 In Development |
 | **[ReactJS Chatbot](https://github.com/KodEx-SA/ReactJs-ChatBot)** | Groq-powered React chatbot framework | React 18, Groq API, TypeScript | 🟢 Live |
-| **[Portfolio + "Smith" AI](https://my-portfo-lio-alpha.vercel.app/)** | Personal brand hub with built-in AI assistant | React, Vite, Groq, Framer Motion | 🟢 Live |
-| **[SafeCircle](https://github.com/KodEx-SA)** | Consent-based family safety app with real-time location | Expo, Express, Neon PostgreSQL, Socket.io | 🔵 In Development |
+| **[Portfolio + "Smith" AI](https://ashleydevhub.vercel.app/)** | Personal brand hub with built-in AI assistant | Next.js, shadcn/ui, Groq, Magic UI | 🟢 Live |
 
 ---
 
@@ -88,6 +89,10 @@ const ashley = {
 <div align="center">
   <img src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117" width="49%" />
   <img src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065" width="49%" />
+</div>
+
+<div align="center">
+  <img src="https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&layout=compact&title_color=34eb5c&text_color=13e065&bg_color=0d1117&langs_count=10&hide=html&count_private=true&include_forks=true" width="60%" />
 </div>
 
 ---
@@ -104,7 +109,7 @@ const ashley = {
 
 <div align="center">
 
-*Open to full-time roles, freelance, and collaboration — reach out anytime..*  
+*Open to full-time roles, freelance, and collaboration — reach out anytime.*  
 **motsieashley31@gmail.com** · SAST (UTC+2) · Responds within 24hrs
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:000000&height=100&section=footer&text=SYSTEM+ONLINE&fontSize=18&fontColor=34eb5c&animation=twinkling" width="100%" />
