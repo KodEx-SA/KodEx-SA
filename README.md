@@ -74,15 +74,39 @@ const ashley = {
 
 ---
 
-## 🚀 Featured Projects
+## 📈 Impact & Metrics
 
-| Project | Description | Stack | Status |
-|--------|-------------|-------|--------|
-| **[eDuBaskets](https://github.com/KodEx-SA)** | Student hamper delivery platform for SA universities | Next.js 15, TypeScript, Prisma, PayFast | 🟡 In Progress |
-| **[Sasbo AI Symposium 2026](https://sasbo-ai-symposium.vercel.app/)** | Live client event site with scroll animations & countdown | Next.js 15, TypeScript, Tailwind v4, Framer Motion | 🟢 Live |
-| **[EV Dashboard](https://github.com/KodEx-SA/ev-dashboard-implementation)** | Enterprise charging station analytics hub | Next.js, PostgreSQL, Neon, NextAuth | 🔵 In Development |
-| **[ReactJS Chatbot](https://github.com/KodEx-SA/ReactJs-ChatBot)** | Groq-powered React chatbot framework | React 18, Groq API, TypeScript | 🟢 Live |
-| **[Portfolio + "Smith" AI](https://ashleydevhub.vercel.app/)** | Personal brand hub with built-in AI assistant | Next.js, shadcn/ui, Groq, Magic UI | 🟢 Live |
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="160">
+      <h2>🤖 2</h2>
+      <b>Production AI Systems</b><br/>
+      <sub>Smith AI · ReactJS Chatbot</sub>
+    </td>
+    <td align="center" width="160">
+      <h2>🌐 5+</h2>
+      <b>Client Sites Delivered</b><br/>
+      <sub>Live & in production</sub>
+    </td>
+    <td align="center" width="160">
+      <h2>👥 3</h2>
+      <b>Concurrent Roles</b><br/>
+      <sub>Across tech & AI firms</sub>
+    </td>
+    <td align="center" width="160">
+      <h2>☁️ 3+</h2>
+      <b>Cloud Platforms</b><br/>
+      <sub>Vercel · Netlify · Render</sub>
+    </td>
+    <td align="center" width="160">
+      <h2>📅 3+</h2>
+      <b>Years Experience</b><br/>
+      <sub>Building & shipping</sub>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
