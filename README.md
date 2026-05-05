@@ -14,6 +14,8 @@
 [![YouTube](https://img.shields.io/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@Ashley.Programmer)
 
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
+[![committers.top badge](https://user-badge.committers.top/south_africa_public/KodEx-SA.svg)](https://user-badge.committers.top/south_africa_public/KodEx-SA)
+[![committers.top badge](https://user-badge.committers.top/south_africa_private/KodEx-SA.svg)](https://user-badge.committers.top/south_africa_private/KodEx-SA)
 ![Profile Views](https://komarev.com/ghpvc/?username=KodEx-SA&color=34eb5c&style=for-the-badge&label=VISITORS)
 
 </div>
