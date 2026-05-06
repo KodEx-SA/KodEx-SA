@@ -1,6 +1,5 @@
 import os
 import json
-import math
 import urllib.request
 from datetime import datetime, timezone
 
@@ -32,7 +31,6 @@ def get_stats(username, token):
     query = f"""
     {{
       user(login: "{username}") {{
-        name
         repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {{
           totalCount
           nodes {{
@@ -45,22 +43,16 @@ def get_stats(username, token):
           totalCommitContributions
           totalPullRequestContributions
           totalIssueContributions
-          totalRepositoryContributions
-          contributionCalendar {{
-            totalContributions
-          }}
+          contributionCalendar {{ totalContributions }}
         }}
         followers {{ totalCount }}
-        following {{ totalCount }}
       }}
     }}
     """
     result = graphql(query, token)
     user = result["data"]["user"]
-
     repos = user["repositories"]["nodes"]
     total_stars = sum(r["stargazerCount"] for r in repos)
-    total_forks = sum(r["forkCount"] for r in repos)
 
     lang_counts = {}
     for r in repos:
@@ -71,15 +63,14 @@ def get_stats(username, token):
 
     cc = user["contributionsCollection"]
     return {
-        "total_repos": user["repositories"]["totalCount"],
-        "total_stars": total_stars,
-        "total_forks": total_forks,
-        "total_commits": cc["totalCommitContributions"],
-        "total_prs": cc["totalPullRequestContributions"],
-        "total_issues": cc["totalIssueContributions"],
+        "total_repos":         user["repositories"]["totalCount"],
+        "total_stars":         total_stars,
+        "total_commits":       cc["totalCommitContributions"],
+        "total_prs":           cc["totalPullRequestContributions"],
+        "total_issues":        cc["totalIssueContributions"],
         "total_contributions": cc["contributionCalendar"]["totalContributions"],
-        "followers": user["followers"]["totalCount"],
-        "top_lang": top_lang,
+        "followers":           user["followers"]["totalCount"],
+        "top_lang":            top_lang,
     }
 
 
@@ -90,19 +81,18 @@ def fmt(n):
 
 
 def build_svg(stats):
-    W, H = 480, 200
+    W, H = 495, 195
 
     items = [
-        ("⭐", "Stars Earned",    fmt(stats["total_stars"])),
-        ("🔀", "Total Commits",   fmt(stats["total_commits"])),
-        ("🔃", "Pull Requests",   fmt(stats["total_prs"])),
-        ("🐛", "Issues",          fmt(stats["total_issues"])),
-        ("📦", "Repositories",    fmt(stats["total_repos"])),
-        ("🏆", "Contributions",   fmt(stats["total_contributions"])),
+        ("Stars",         fmt(stats["total_stars"]),         "#e3b341"),
+        ("Commits",       fmt(stats["total_commits"]),        "#34eb5c"),
+        ("Pull Requests", fmt(stats["total_prs"]),            "#58a6ff"),
+        ("Issues",        fmt(stats["total_issues"]),         "#f78166"),
+        ("Repos",         fmt(stats["total_repos"]),          "#bc8cff"),
+        ("Contributions", fmt(stats["total_contributions"]),  "#34eb5c"),
     ]
 
-    col_w = W // 3
-    row_h = (H - 70) // 2
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     lines = []
     lines.append(
@@ -111,64 +101,70 @@ def build_svg(stats):
     )
     lines.append(f'<title>GitHub Stats — {USERNAME}</title>')
 
-    # Background
-    lines.append(
-        f'<rect width="{W}" height="{H}" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>'
-    )
+    # Card background
+    lines.append(f'<rect width="{W}" height="{H}" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>')
 
-    # Title row
+    # Header bar
+    lines.append(f'<rect width="{W}" height="42" rx="12" fill="#161b22"/>')
+    lines.append(f'<rect y="30" width="{W}" height="12" fill="#161b22"/>')
+    lines.append(f'<line x1="0" y1="42" x2="{W}" y2="42" stroke="#30363d" stroke-width="0.8"/>')
+
+    # Title
     lines.append(
-        f'<text x="20" y="26" font-family="monospace" font-size="11" '
-        f'fill="#34eb5c" letter-spacing="2" opacity="0.85">GITHUB STATS — {USERNAME.upper()}</text>'
-    )
-    lines.append(
-        f'<line x1="20" y1="33" x2="{W-20}" y2="33" stroke="#21262d" stroke-width="0.8"/>'
+        f'<text x="18" y="27" font-family="monospace" font-size="12" '
+        f'font-weight="bold" fill="#34eb5c" letter-spacing="1">GitHub Stats</text>'
     )
 
     # Top lang pill
+    lines.append(f'<rect x="{W-116}" y="13" width="100" height="18" rx="9" fill="#1f2937" stroke="#30363d" stroke-width="0.8"/>')
     lines.append(
-        f'<rect x="{W - 110}" y="12" width="95" height="18" rx="9" fill="#161b22" stroke="#21262d" stroke-width="1"/>'
+        f'<circle cx="{W-108}" cy="22" r="4" fill="#34eb5c"/>'
     )
     lines.append(
-        f'<text x="{W - 63}" y="25" text-anchor="middle" font-family="monospace" '
-        f'font-size="10" fill="#34eb5c">✦ {stats["top_lang"]}</text>'
+        f'<text x="{W-100}" y="26" font-family="monospace" font-size="10" fill="#c9d1d9">'
+        f'{stats["top_lang"]}</text>'
     )
 
-    # Stat cells
-    for i, (icon, label, value) in enumerate(items):
-        col = i % 3
-        row = i // 3
-        x = col * col_w + col_w // 2
-        y = 44 + row * row_h + row_h // 2
+    # 2x3 stat grid
+    cols = 3
+    cell_w = W // cols
+    cell_h = (H - 42) // 2
+    pad_top = 42
 
-        # Cell background
-        cell_x = col * col_w + 8
-        cell_y = 40 + row * row_h
+    for i, (label, value, color) in enumerate(items):
+        col = i % cols
+        row = i // cols
+        cx = col * cell_w + cell_w // 2
+        cy = pad_top + row * cell_h + cell_h // 2
+
+        # subtle cell dividers
+        if col > 0:
+            lx = col * cell_w
+            lines.append(
+                f'<line x1="{lx}" y1="{pad_top + 12}" x2="{lx}" y2="{H - 12}" '
+                f'stroke="#21262d" stroke-width="0.8"/>'
+            )
+        if row == 1 and col == 0:
+            lines.append(
+                f'<line x1="12" y1="{pad_top + cell_h}" x2="{W - 12}" y2="{pad_top + cell_h}" '
+                f'stroke="#21262d" stroke-width="0.8"/>'
+            )
+
+        # Value — large and colored
         lines.append(
-            f'<rect x="{cell_x}" y="{cell_y}" width="{col_w - 16}" height="{row_h - 8}" '
-            f'rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>'
+            f'<text x="{cx}" y="{cy + 4}" text-anchor="middle" font-family="monospace" '
+            f'font-size="22" font-weight="bold" fill="{color}">{value}</text>'
+        )
+        # Label — small muted
+        lines.append(
+            f'<text x="{cx}" y="{cy + 20}" text-anchor="middle" font-family="monospace" '
+            f'font-size="9" fill="#6e7681" letter-spacing="0.5">{label.upper()}</text>'
         )
 
-        # Icon
-        lines.append(
-            f'<text x="{x}" y="{y - 8}" text-anchor="middle" font-size="18">{icon}</text>'
-        )
-        # Value
-        lines.append(
-            f'<text x="{x}" y="{y + 14}" text-anchor="middle" font-family="monospace" '
-            f'font-size="20" font-weight="bold" fill="#34eb5c">{value}</text>'
-        )
-        # Label
-        lines.append(
-            f'<text x="{x}" y="{y + 28}" text-anchor="middle" font-family="monospace" '
-            f'font-size="9" fill="#8b949e">{label.upper()}</text>'
-        )
-
-    # Footer
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # Footer date
     lines.append(
-        f'<text x="{W - 20}" y="{H - 8}" text-anchor="end" font-family="monospace" '
-        f'font-size="9" fill="#484f58">updated {now} UTC</text>'
+        f'<text x="{W - 14}" y="{H - 7}" text-anchor="end" font-family="monospace" '
+        f'font-size="8" fill="#484f58">updated {now}</text>'
     )
 
     lines.append("</svg>")

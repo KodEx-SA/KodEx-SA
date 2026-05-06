@@ -113,8 +113,7 @@ const ashley = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="github-stats.svg" width="49%" alt="GitHub Stats" />
-  <img src="github-streak.svg" width="49%" alt="GitHub Streak" />
+<img src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117" width="49%" /> <img src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065" width="49%" />
 </div>
 
 <div align="center">
