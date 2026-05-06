@@ -1,33 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="GitHub Stats for KodEx-SA">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub Stats for KodEx-SA">
 <title>GitHub Stats — KodEx-SA</title>
-<rect width="480" height="200" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-<text x="20" y="26" font-family="monospace" font-size="11" fill="#34eb5c" letter-spacing="2" opacity="0.85">GITHUB STATS — KODEX-SA</text>
-<line x1="20" y1="33" x2="460" y2="33" stroke="#21262d" stroke-width="0.8"/>
-<rect x="370" y="12" width="95" height="18" rx="9" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-<text x="417" y="25" text-anchor="middle" font-family="monospace" font-size="10" fill="#34eb5c">✦ Python</text>
-<rect x="8" y="40" width="144" height="57" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
-<text x="80" y="68" text-anchor="middle" font-size="18">⭐</text>
-<text x="80" y="90" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#34eb5c">68</text>
-<text x="80" y="104" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">STARS EARNED</text>
-<rect x="168" y="40" width="144" height="57" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
-<text x="240" y="68" text-anchor="middle" font-size="18">🔀</text>
-<text x="240" y="90" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#34eb5c">1.0k</text>
-<text x="240" y="104" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">TOTAL COMMITS</text>
-<rect x="328" y="40" width="144" height="57" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
-<text x="400" y="68" text-anchor="middle" font-size="18">🔃</text>
-<text x="400" y="90" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#34eb5c">206</text>
-<text x="400" y="104" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">PULL REQUESTS</text>
-<rect x="8" y="105" width="144" height="57" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
-<text x="80" y="133" text-anchor="middle" font-size="18">🐛</text>
-<text x="80" y="155" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#34eb5c">0</text>
-<text x="80" y="169" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">ISSUES</text>
-<rect x="168" y="105" width="144" height="57" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
-<text x="240" y="133" text-anchor="middle" font-size="18">📦</text>
-<text x="240" y="155" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#34eb5c">63</text>
-<text x="240" y="169" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">REPOSITORIES</text>
-<rect x="328" y="105" width="144" height="57" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="0.5"/>
-<text x="400" y="133" text-anchor="middle" font-size="18">🏆</text>
-<text x="400" y="155" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#34eb5c">1.4k</text>
-<text x="400" y="169" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">CONTRIBUTIONS</text>
-<text x="460" y="192" text-anchor="end" font-family="monospace" font-size="9" fill="#484f58">updated 2026-05-06 UTC</text>
+<rect width="495" height="195" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect width="495" height="42" rx="12" fill="#161b22"/>
+<rect y="30" width="495" height="12" fill="#161b22"/>
+<line x1="0" y1="42" x2="495" y2="42" stroke="#30363d" stroke-width="0.8"/>
+<text x="18" y="27" font-family="monospace" font-size="12" font-weight="bold" fill="#34eb5c" letter-spacing="1">GitHub Stats</text>
+<rect x="379" y="13" width="100" height="18" rx="9" fill="#1f2937" stroke="#30363d" stroke-width="0.8"/>
+<circle cx="387" cy="22" r="4" fill="#34eb5c"/>
+<text x="395" y="26" font-family="monospace" font-size="10" fill="#c9d1d9">Python</text>
+<text x="82" y="84" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#e3b341">68</text>
+<text x="82" y="100" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">STARS</text>
+<line x1="165" y1="54" x2="165" y2="183" stroke="#21262d" stroke-width="0.8"/>
+<text x="247" y="84" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#34eb5c">1.0k</text>
+<text x="247" y="100" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">COMMITS</text>
+<line x1="330" y1="54" x2="330" y2="183" stroke="#21262d" stroke-width="0.8"/>
+<text x="412" y="84" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#58a6ff">206</text>
+<text x="412" y="100" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">PULL REQUESTS</text>
+<line x1="12" y1="118" x2="483" y2="118" stroke="#21262d" stroke-width="0.8"/>
+<text x="82" y="160" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#f78166">0</text>
+<text x="82" y="176" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">ISSUES</text>
+<line x1="165" y1="54" x2="165" y2="183" stroke="#21262d" stroke-width="0.8"/>
+<text x="247" y="160" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#bc8cff">63</text>
+<text x="247" y="176" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">REPOS</text>
+<line x1="330" y1="54" x2="330" y2="183" stroke="#21262d" stroke-width="0.8"/>
+<text x="412" y="160" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#34eb5c">1.4k</text>
+<text x="412" y="176" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">CONTRIBUTIONS</text>
+<text x="481" y="188" text-anchor="end" font-family="monospace" font-size="8" fill="#484f58">updated 2026-05-06</text>
 </svg>

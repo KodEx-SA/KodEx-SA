@@ -1,48 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="GitHub Streak for KodEx-SA">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub Streak for KodEx-SA">
 <title>GitHub Streak — KodEx-SA</title>
-<rect width="480" height="200" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-<text x="20" y="26" font-family="monospace" font-size="11" fill="#34eb5c" letter-spacing="2" opacity="0.85">CONTRIBUTION STREAK — KODEX-SA</text>
-<line x1="20" y1="33" x2="460" y2="33" stroke="#21262d" stroke-width="0.8"/>
-<circle cx="115" cy="105" r="42" fill="#34eb5c" opacity="0.04"/>
-<path d="M 115,57 C 130.2,72.2 137.8,87.4 126.4,98.8 C 134.0,91.2 130.2,110.2 115,133 C 99.8,110.2 96.0,91.2 103.6,98.8 C 92.2,87.4 99.8,72.2 115,57 Z" fill="#F7A325" opacity="0.9"/>
-<path d="M 115,81 C 123.8,89.8 128.2,98.6 121.6,105.2 C 126.0,100.8 123.8,111.8 115,125 C 106.2,111.8 104.0,100.8 108.4,105.2 C 101.8,98.6 106.2,89.8 115,81 Z" fill="#FFD166" opacity="0.7"/>
-<text x="115" y="103" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#ffffff">2</text>
-<text x="115" y="117" text-anchor="middle" font-family="monospace" font-size="8" fill="#ffffffaa">DAY STREAK</text>
-<text x="115" y="180" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">CURRENT STREAK</text>
-<line x1="200" y1="40" x2="200" y2="186" stroke="#21262d" stroke-width="0.8"/>
-<text x="215" y="58" font-family="monospace" font-size="10" fill="#8b949e">LONGEST STREAK</text>
-<text x="215" y="80" font-family="monospace" font-size="26" font-weight="bold" fill="#34eb5c">12 <tspan font-size="12" fill="#8b949e">days</tspan></text>
-<line x1="215" y1="88" x2="460" y2="88" stroke="#21262d" stroke-width="0.5"/>
-<text x="215" y="104" font-family="monospace" font-size="10" fill="#8b949e">TOTAL CONTRIBUTIONS</text>
-<text x="215" y="124" font-family="monospace" font-size="22" font-weight="bold" fill="#34eb5c">1,390</text>
-<line x1="215" y1="130" x2="460" y2="130" stroke="#21262d" stroke-width="0.5"/>
-<rect x="215.0" y="162.1" width="7.8" height="5.9" rx="1" fill="#34eb5c" opacity="0.43"/>
-<rect x="223.8" y="150.3" width="7.8" height="17.7" rx="1" fill="#34eb5c" opacity="0.69"/>
-<rect x="232.5" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.32"/>
-<rect x="241.2" y="165.5" width="7.8" height="2.5" rx="1" fill="#34eb5c" opacity="0.36"/>
-<rect x="250.0" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="258.8" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="267.5" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.32"/>
-<rect x="276.2" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="285.0" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="293.8" y="156.2" width="7.8" height="11.8" rx="1" fill="#34eb5c" opacity="0.56"/>
-<rect x="302.5" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="311.2" y="157.1" width="7.8" height="10.9" rx="1" fill="#34eb5c" opacity="0.54"/>
-<rect x="320.0" y="160.4" width="7.8" height="7.6" rx="1" fill="#34eb5c" opacity="0.47"/>
-<rect x="328.8" y="152.0" width="7.8" height="16.0" rx="1" fill="#34eb5c" opacity="0.65"/>
-<rect x="337.5" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="346.2" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="355.0" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="363.8" y="147.8" width="7.8" height="20.2" rx="1" fill="#34eb5c" opacity="0.74"/>
-<rect x="372.5" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.32"/>
-<rect x="381.2" y="162.1" width="7.8" height="5.9" rx="1" fill="#34eb5c" opacity="0.43"/>
-<rect x="390.0" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="398.8" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.32"/>
-<rect x="407.5" y="156.2" width="7.8" height="11.8" rx="1" fill="#34eb5c" opacity="0.56"/>
-<rect x="416.2" y="148.6" width="7.8" height="19.4" rx="1" fill="#34eb5c" opacity="0.72"/>
-<rect x="425.0" y="157.9" width="7.8" height="10.1" rx="1" fill="#34eb5c" opacity="0.52"/>
-<rect x="433.8" y="167.0" width="7.8" height="1.0" rx="1" fill="#34eb5c" opacity="0.08"/>
-<rect x="442.5" y="136.0" width="7.8" height="32.0" rx="1" fill="#34eb5c" opacity="1.00"/>
-<rect x="451.2" y="162.9" width="7.8" height="5.1" rx="1" fill="#34eb5c" opacity="0.41"/>
-<text x="215" y="192" font-family="monospace" font-size="9" fill="#484f58">last 28 days · since 2025-05-18</text>
+<rect width="495" height="195" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect width="495" height="42" rx="12" fill="#161b22"/>
+<rect y="30" width="495" height="12" fill="#161b22"/>
+<line x1="0" y1="42" x2="495" y2="42" stroke="#30363d" stroke-width="0.8"/>
+<text x="18" y="27" font-family="monospace" font-size="12" font-weight="bold" fill="#34eb5c" letter-spacing="1">Contribution Streak</text>
+<rect x="369" y="13" width="110" height="18" rx="9" fill="#1f2937" stroke="#30363d" stroke-width="0.8"/>
+<text x="424" y="26" text-anchor="middle" font-family="monospace" font-size="10" fill="#6e7681">since 2025-05-18</text>
+<line x1="165" y1="54" x2="165" y2="183" stroke="#21262d" stroke-width="0.8"/>
+<line x1="330" y1="54" x2="330" y2="183" stroke="#21262d" stroke-width="0.8"/>
+<circle cx="82" cy="114" r="34" fill="none" stroke="#21262d" stroke-width="5"/>
+<path d="M 82,80 A 34,34 0 0,1 95.83,82.94" fill="none" stroke="#f7a325" stroke-width="5" stroke-linecap="round"/>
+<text x="82" y="110" text-anchor="middle" font-size="16">🔥</text>
+<text x="82" y="128" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#f7a325">2</text>
+<text x="82" y="185" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">CURRENT STREAK</text>
+<text x="247" y="96" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">LONGEST STREAK</text>
+<text x="247" y="128" text-anchor="middle" font-family="monospace" font-size="30" font-weight="bold" fill="#58a6ff">12</text>
+<text x="247" y="144" text-anchor="middle" font-family="monospace" font-size="11" fill="#6e7681">days</text>
+<rect x="342.0" y="92.3" width="4.0" height="7.7" rx="1" fill="#34eb5c" opacity="0.47"/>
+<rect x="347.0" y="76.8" width="4.0" height="23.2" rx="1" fill="#34eb5c" opacity="0.71"/>
+<rect x="352.1" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
+<rect x="357.1" y="96.7" width="4.0" height="3.3" rx="1" fill="#34eb5c" opacity="0.40"/>
+<rect x="362.1" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="367.2" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="372.2" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
+<rect x="377.2" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="382.3" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="387.3" y="84.5" width="4.0" height="15.5" rx="1" fill="#34eb5c" opacity="0.59"/>
+<rect x="392.4" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="397.4" y="85.6" width="4.0" height="14.4" rx="1" fill="#34eb5c" opacity="0.57"/>
+<rect x="402.4" y="90.1" width="4.0" height="9.9" rx="1" fill="#34eb5c" opacity="0.50"/>
+<rect x="407.5" y="79.0" width="4.0" height="21.0" rx="1" fill="#34eb5c" opacity="0.68"/>
+<rect x="412.5" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="417.5" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="422.6" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="427.6" y="73.5" width="4.0" height="26.5" rx="1" fill="#34eb5c" opacity="0.76"/>
+<rect x="432.6" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
+<rect x="437.7" y="92.3" width="4.0" height="7.7" rx="1" fill="#34eb5c" opacity="0.47"/>
+<rect x="442.7" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="447.8" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
+<rect x="452.8" y="84.5" width="4.0" height="15.5" rx="1" fill="#34eb5c" opacity="0.59"/>
+<rect x="457.8" y="74.6" width="4.0" height="25.4" rx="1" fill="#34eb5c" opacity="0.74"/>
+<rect x="462.9" y="86.7" width="4.0" height="13.3" rx="1" fill="#34eb5c" opacity="0.56"/>
+<rect x="467.9" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
+<rect x="472.9" y="58.0" width="4.0" height="42.0" rx="1" fill="#34eb5c" opacity="1.00"/>
+<rect x="478.0" y="92.3" width="4.0" height="7.7" rx="1" fill="#34eb5c" opacity="0.47"/>
+<text x="412" y="116" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681">28-DAY ACTIVITY</text>
+<text x="412" y="165" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#34eb5c">1,391</text>
+<text x="412" y="185" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">TOTAL CONTRIBUTIONS</text>
 </svg>
