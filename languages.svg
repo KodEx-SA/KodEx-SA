@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="Donut chart of most used programming languages for KodEx-SA">
+<title>Most Used Languages — KodEx-SA</title>
+<rect width="480" height="200" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+<text x="20" y="22" font-family="monospace" font-size="11" fill="#34eb5c" letter-spacing="2" opacity="0.7">MOST USED LANGUAGES</text>
+<path d="M 101.571,28.017 A 72,72 0 1,1 62.762,161.622 L 74.140,142.793 A 50,50 0 1,0 101.091,50.012 Z" fill="#34eb5c"/>
+<path d="M 60.109,159.939 A 72,72 0 0,1 58.426,41.215 L 71.129,59.177 A 50,50 0 0,0 72.298,141.625 Z" fill="#1aab3d"/>
+<path d="M 61.030,39.458 A 72,72 0 0,1 95.036,28.171 L 96.552,50.119 A 50,50 0 0,0 72.937,57.957 Z" fill="#0d7a2b"/>
+<text x="100" y="94" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">TOP</text>
+<text x="100" y="110" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#34eb5c">7</text>
+<text x="100" y="124" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">LANGS</text>
+<circle cx="215" cy="33" r="5" fill="#34eb5c"/>
+<text x="226" y="38" font-family="monospace" font-size="12" fill="#e6edf3">TypeScript</text>
+<text x="460" y="38" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">59.0%</text>
+<circle cx="215" cy="59" r="5" fill="#1aab3d"/>
+<text x="226" y="64" font-family="monospace" font-size="12" fill="#e6edf3">JavaScript</text>
+<text x="460" y="64" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">31.6%</text>
+<circle cx="215" cy="85" r="5" fill="#0d7a2b"/>
+<text x="226" y="90" font-family="monospace" font-size="12" fill="#e6edf3">Python</text>
+<text x="460" y="90" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">8.7%</text>
+<circle cx="215" cy="111" r="5" fill="#278a47"/>
+<text x="226" y="116" font-family="monospace" font-size="12" fill="#e6edf3">Visual Basic .NET</text>
+<text x="460" y="116" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">0.2%</text>
+<circle cx="215" cy="137" r="5" fill="#4CAF70"/>
+<text x="226" y="142" font-family="monospace" font-size="12" fill="#e6edf3">C#</text>
+<text x="460" y="142" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">0.2%</text>
+<circle cx="215" cy="163" r="5" fill="#2d5c3a"/>
+<text x="226" y="168" font-family="monospace" font-size="12" fill="#e6edf3">PLpgSQL</text>
+<text x="460" y="168" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">0.1%</text>
+<circle cx="215" cy="189" r="5" fill="#3a3a3a"/>
+<text x="226" y="194" font-family="monospace" font-size="12" fill="#e6edf3">Other</text>
+<text x="460" y="194" text-anchor="end" font-family="monospace" font-size="12" fill="#34eb5c">0.2%</text>
+<rect x="210.00" y="216" width="147.50" height="6" fill="#34eb5c"/>
+<rect x="357.50" y="216" width="78.88" height="6" fill="#1aab3d"/>
+<rect x="436.38" y="216" width="21.75" height="6" fill="#0d7a2b"/>
+<text x="210" y="236" font-family="monospace" font-size="9" fill="#484f58">auto-updated · excludes forks &amp; markup</text>
+</svg>
