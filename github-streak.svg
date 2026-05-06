@@ -1,51 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub Streak for KodEx-SA">
-<title>GitHub Streak — KodEx-SA</title>
-<rect width="495" height="195" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-<rect width="495" height="42" rx="12" fill="#161b22"/>
-<rect y="30" width="495" height="12" fill="#161b22"/>
-<line x1="0" y1="42" x2="495" y2="42" stroke="#30363d" stroke-width="0.8"/>
-<text x="18" y="27" font-family="monospace" font-size="12" font-weight="bold" fill="#34eb5c" letter-spacing="1">Contribution Streak</text>
-<rect x="369" y="13" width="110" height="18" rx="9" fill="#1f2937" stroke="#30363d" stroke-width="0.8"/>
-<text x="424" y="26" text-anchor="middle" font-family="monospace" font-size="10" fill="#6e7681">since 2025-05-18</text>
-<line x1="165" y1="54" x2="165" y2="183" stroke="#21262d" stroke-width="0.8"/>
-<line x1="330" y1="54" x2="330" y2="183" stroke="#21262d" stroke-width="0.8"/>
-<circle cx="82" cy="114" r="34" fill="none" stroke="#21262d" stroke-width="5"/>
-<path d="M 82,80 A 34,34 0 0,1 95.83,82.94" fill="none" stroke="#f7a325" stroke-width="5" stroke-linecap="round"/>
-<text x="82" y="110" text-anchor="middle" font-size="16">🔥</text>
-<text x="82" y="128" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#f7a325">2</text>
-<text x="82" y="185" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">CURRENT STREAK</text>
-<text x="247" y="96" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">LONGEST STREAK</text>
-<text x="247" y="128" text-anchor="middle" font-family="monospace" font-size="30" font-weight="bold" fill="#58a6ff">12</text>
-<text x="247" y="144" text-anchor="middle" font-family="monospace" font-size="11" fill="#6e7681">days</text>
-<rect x="342.0" y="92.3" width="4.0" height="7.7" rx="1" fill="#34eb5c" opacity="0.47"/>
-<rect x="347.0" y="76.8" width="4.0" height="23.2" rx="1" fill="#34eb5c" opacity="0.71"/>
-<rect x="352.1" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
-<rect x="357.1" y="96.7" width="4.0" height="3.3" rx="1" fill="#34eb5c" opacity="0.40"/>
-<rect x="362.1" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="367.2" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="372.2" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
-<rect x="377.2" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="382.3" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="387.3" y="84.5" width="4.0" height="15.5" rx="1" fill="#34eb5c" opacity="0.59"/>
-<rect x="392.4" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="397.4" y="85.6" width="4.0" height="14.4" rx="1" fill="#34eb5c" opacity="0.57"/>
-<rect x="402.4" y="90.1" width="4.0" height="9.9" rx="1" fill="#34eb5c" opacity="0.50"/>
-<rect x="407.5" y="79.0" width="4.0" height="21.0" rx="1" fill="#34eb5c" opacity="0.68"/>
-<rect x="412.5" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="417.5" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="422.6" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="427.6" y="73.5" width="4.0" height="26.5" rx="1" fill="#34eb5c" opacity="0.76"/>
-<rect x="432.6" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
-<rect x="437.7" y="92.3" width="4.0" height="7.7" rx="1" fill="#34eb5c" opacity="0.47"/>
-<rect x="442.7" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="447.8" y="97.0" width="4.0" height="3.0" rx="1" fill="#34eb5c" opacity="0.37"/>
-<rect x="452.8" y="84.5" width="4.0" height="15.5" rx="1" fill="#34eb5c" opacity="0.59"/>
-<rect x="457.8" y="74.6" width="4.0" height="25.4" rx="1" fill="#34eb5c" opacity="0.74"/>
-<rect x="462.9" y="86.7" width="4.0" height="13.3" rx="1" fill="#34eb5c" opacity="0.56"/>
-<rect x="467.9" y="98.0" width="4.0" height="2.0" rx="1" fill="#34eb5c" opacity="0.07"/>
-<rect x="472.9" y="58.0" width="4.0" height="42.0" rx="1" fill="#34eb5c" opacity="1.00"/>
-<rect x="478.0" y="92.3" width="4.0" height="7.7" rx="1" fill="#34eb5c" opacity="0.47"/>
-<text x="412" y="116" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681">28-DAY ACTIVITY</text>
-<text x="412" y="165" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#34eb5c">1,391</text>
-<text x="412" y="185" text-anchor="middle" font-family="monospace" font-size="9" fill="#6e7681" letter-spacing="0.5">TOTAL CONTRIBUTIONS</text>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    style='isolation: isolate' viewBox='0 0 495 195' width='495px' height='195px' direction='ltr'>
+    <style>
+        @keyframes currstreak {
+            0%   { font-size: 3px;  opacity: 0.2; }
+            80%  { font-size: 34px; opacity: 1;   }
+            100% { font-size: 28px; opacity: 1;   }
+        }
+        @keyframes fadein {
+            0%   { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+    <defs>
+        <clipPath id='outer_rectangle'>
+            <rect width='495' height='195' rx='4.5'/>
+        </clipPath>
+        <mask id='mask_out_ring_behind_fire'>
+            <rect width='495' height='195' fill='white'/>
+            <ellipse id='mask-ellipse' cx='247.5' cy='32' rx='13' ry='18' fill='black'/>
+        </mask>
+    </defs>
+    <g clip-path='url(#outer_rectangle)'>
+        <g style='isolation: isolate'>
+            <rect stroke='#E4E2E2' fill='#0d1117' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+        </g>
+        <g style='isolation: isolate'>
+            <line x1='165' y1='28' x2='165' y2='170' vector-effect='non-scaling-stroke'
+                stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter'
+                stroke-linecap='square' stroke-miterlimit='3'/>
+            <line x1='330' y1='28' x2='330' y2='170' vector-effect='non-scaling-stroke'
+                stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter'
+                stroke-linecap='square' stroke-miterlimit='3'/>
+        </g>
+
+        <!-- Total Contributions -->
+        <g style='isolation: isolate'>
+            <g transform='translate(82.5, 48)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#13e065' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='700' font-size='28px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>1,392</text>
+            </g>
+            <g transform='translate(82.5, 84)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#FEFEFE' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='400' font-size='14px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>Total Contributions</text>
+            </g>
+            <g transform='translate(82.5, 114)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#9E9E9E' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='400' font-size='12px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>May 18, 2025 - Present</text>
+            </g>
+        </g>
+
+        <!-- Current Streak -->
+        <g style='isolation: isolate'>
+            <g transform='translate(247.5, 48)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#FEFEFE' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='700' font-size='28px'
+                    style='animation: currstreak 0.6s linear forwards'>2</text>
+            </g>
+            <g transform='translate(247.5, 108)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#34eb5c' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='700' font-size='14px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Current Streak</text>
+            </g>
+            <g transform='translate(247.5, 145)'>
+                <text x='0' y='21' stroke-width='0' text-anchor='middle'
+                    fill='#9E9E9E' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='400' font-size='12px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>May 5 - May 6</text>
+            </g>
+            <!-- Ring around number -->
+            <g mask='url(#mask_out_ring_behind_fire)'>
+                <circle cx='247.5' cy='71' r='40' fill='none'
+                    stroke='#13e065' stroke-width='5'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.4s'/>
+            </g>
+            <!-- Fire icon -->
+            <g transform='translate(247.5, 19.5)' stroke-opacity='0'
+                style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
+                <path d='M -12 -0.5 L 15 -0.5 L 15 23.5 L -12 23.5 L -12 -0.5 Z' fill='none'/>
+                <path d='M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2
+                    C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11
+                    C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22
+                    C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z
+                    M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86
+                    C -3.51 14.24 -2.46 13.1 -0.7 12.74
+                    C 1.07 12.38 2.9 11.53 3.92 10.16
+                    C 4.31 11.45 4.51 12.81 4.51 14.2
+                    C 4.51 16.85 2.36 19 -0.29 19 Z'
+                    fill='#34eb5c' stroke-opacity='0'/>
+            </g>
+        </g>
+
+        <!-- Longest Streak -->
+        <g style='isolation: isolate'>
+            <g transform='translate(412.5, 48)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#13e065' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='700' font-size='28px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>12</text>
+            </g>
+            <g transform='translate(412.5, 84)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#FEFEFE' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='400' font-size='14px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>Longest Streak</text>
+            </g>
+            <g transform='translate(412.5, 114)'>
+                <text x='0' y='32' stroke-width='0' text-anchor='middle'
+                    fill='#9E9E9E' stroke='none'
+                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    font-weight='400' font-size='12px'
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>Mar 21 - Apr 1</text>
+            </g>
+        </g>
+
+    </g>
 </svg>
