@@ -8,18 +8,44 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "KodEx-SA")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "languages.svg")
 
-EXCLUDE_LANGS = {"HTML", "Markdown", "MDX", "CSS", "SCSS", "Shell"}
-MAX_LANGS = 6
+# Only exclude pure markup/config
+EXCLUDE_LANGS = {"Markdown", "MDX", "Text", "Batchfile", "Makefile"}
+MAX_LANGS = 8
 
-COLORS = [
-    "#34eb5c",  # brand green
-    "#1aab3d",
-    "#0d7a2b",
-    "#278a47",
-    "#4CAF70",
-    "#2d5c3a",
+# Visually distinct colors per language
+LANG_COLORS = {
+    "TypeScript":        "#3178C6",
+    "JavaScript":        "#F7DF1E",
+    "Python":            "#3572A5",
+    "C":                 "#A8B9CC",
+    "C++":               "#F34B7D",
+    "C#":                "#178600",
+    "Rust":              "#DEA584",
+    "Go":                "#00ADD8",
+    "Java":              "#B07219",
+    "Kotlin":            "#A97BFF",
+    "Swift":             "#F05138",
+    "Ruby":              "#CC342D",
+    "PHP":               "#4F5D95",
+    "HTML":              "#E34C26",
+    "CSS":               "#563D7C",
+    "SCSS":              "#C6538C",
+    "Shell":             "#89E051",
+    "PowerShell":        "#012456",
+    "Dockerfile":        "#384D54",
+    "PLpgSQL":           "#336791",
+    "SQL":               "#E38C00",
+    "Visual Basic .NET": "#945DB7",
+    "Lua":               "#000080",
+    "Dart":              "#00B4AB",
+    "R":                 "#198CE7",
+    "Other":             "#6E7681",
+}
+
+FALLBACK_COLORS = [
+    "#34eb5c", "#e05c34", "#5c34eb", "#eb34b1",
+    "#34b1eb", "#ebb134", "#34ebb1", "#b134eb",
 ]
-OTHER_COLOR = "#3a3a3a"
 
 
 def fetch(url, token):
@@ -61,6 +87,40 @@ def get_language_bytes(username, token):
     return totals
 
 
+def get_color(lang, fallback_index):
+    if lang in LANG_COLORS:
+        return LANG_COLORS[lang]
+    return FALLBACK_COLORS[fallback_index % len(FALLBACK_COLORS)]
+
+
+def arc_path(start_angle, end_angle, r, cx, cy):
+    start_rad = math.radians(start_angle - 90)
+    end_rad = math.radians(end_angle - 90)
+    x1 = cx + r * math.cos(start_rad)
+    y1 = cy + r * math.sin(start_rad)
+    x2 = cx + r * math.cos(end_rad)
+    y2 = cy + r * math.sin(end_rad)
+    large = 1 if (end_angle - start_angle) > 180 else 0
+    return f"M {x1:.3f},{y1:.3f} A {r},{r} 0 {large},1 {x2:.3f},{y2:.3f}"
+
+
+def build_donut_path(start_angle, end_angle, R, thickness, cx, cy):
+    outer = arc_path(start_angle, end_angle, R, cx, cy)
+    ri = R - thickness
+    inner_start_rad = math.radians(end_angle - 90)
+    inner_end_rad = math.radians(start_angle - 90)
+    ix1 = cx + ri * math.cos(inner_start_rad)
+    iy1 = cy + ri * math.sin(inner_start_rad)
+    ix2 = cx + ri * math.cos(inner_end_rad)
+    iy2 = cy + ri * math.sin(inner_end_rad)
+    span = end_angle - start_angle
+    large = 1 if span > 180 else 0
+    return (
+        f"{outer} L {ix1:.3f},{iy1:.3f} "
+        f"A {ri},{ri} 0 {large},0 {ix2:.3f},{iy2:.3f} Z"
+    )
+
+
 def build_svg(lang_data):
     total = sum(lang_data.values())
     if total == 0:
@@ -71,96 +131,72 @@ def build_svg(lang_data):
     other_bytes = sum(v for _, v in sorted_langs[MAX_LANGS:])
 
     segments = []
-    for i, (lang, bytes_count) in enumerate(top):
-        pct = bytes_count / total
+    fallback_idx = 0
+    for lang, bytes_count in top:
+        color = get_color(lang, fallback_idx)
+        if lang not in LANG_COLORS:
+            fallback_idx += 1
         segments.append({
             "name": lang,
-            "pct": pct,
-            "color": COLORS[i % len(COLORS)],
+            "pct": bytes_count / total,
+            "color": color,
         })
 
     if other_bytes > 0:
         segments.append({
             "name": "Other",
             "pct": other_bytes / total,
-            "color": OTHER_COLOR,
+            "color": LANG_COLORS["Other"],
         })
 
-    # SVG dimensions
-    W, H = 480, 200
-    cx, cy, R, thickness = 100, 100, 72, 22
+    # Dynamic height based on legend rows
+    W = 540
+    legend_rows = len(segments)
+    row_h = 28
+    padding_top = 48
+    padding_bottom = 40
+    H = max(240, legend_rows * row_h + padding_top + padding_bottom)
 
-    def arc_path(start_angle, end_angle, r, cx, cy):
-        start_rad = math.radians(start_angle - 90)
-        end_rad = math.radians(end_angle - 90)
-        x1 = cx + r * math.cos(start_rad)
-        y1 = cy + r * math.sin(start_rad)
-        x2 = cx + r * math.cos(end_rad)
-        y2 = cy + r * math.sin(end_rad)
-        large = 1 if (end_angle - start_angle) > 180 else 0
-        return f"M {x1:.3f},{y1:.3f} A {r},{r} 0 {large},1 {x2:.3f},{y2:.3f}"
+    cx, cy = 108, H // 2
+    R, thickness = 82, 26
+    gap_deg = 2.0
 
-    gap_deg = 2.5
+    # Build donut arcs
     current_angle = 0
     arc_paths = []
-
     for seg in segments:
         span = seg["pct"] * 360
-        if span < gap_deg:
+        if span < gap_deg + 0.5:
             current_angle += span
             continue
         start = current_angle + gap_deg / 2
         end = current_angle + span - gap_deg / 2
-        outer = arc_path(start, end, R, cx, cy)
-        inner_start = math.radians(end - 90)
-        inner_end = math.radians(start - 90)
-        ri = R - thickness
-        ix1 = cx + ri * math.cos(inner_start)
-        iy1 = cy + ri * math.sin(inner_start)
-        ix2 = cx + ri * math.cos(inner_end)
-        iy2 = cy + ri * math.sin(inner_end)
-        large = 1 if span > 180 else 0
-        full = (
-            f"{outer} L {ix1:.3f},{iy1:.3f} "
-            f"A {ri},{ri} 0 {large},0 {ix2:.3f},{iy2:.3f} Z"
-        )
-        arc_paths.append((full, seg["color"]))
+        path_d = build_donut_path(start, end, R, thickness, cx, cy)
+        arc_paths.append((path_d, seg["color"]))
         current_angle += span
 
-    # Legend rows
-    legend_x = 210
-    legend_y_start = 28
-    row_h = 26
-    legend_items = []
-    for i, seg in enumerate(segments):
-        y = legend_y_start + i * row_h
-        pct_str = f"{seg['pct']*100:.1f}%"
-        legend_items.append((seg["name"], pct_str, seg["color"], y))
+    legend_x = 215
+    legend_y_start = padding_top - 4
 
-    # Bar row under legend
-    bar_y = legend_y_start + len(segments) * row_h + 6
-    bar_x = legend_x
-    bar_w = 250
-    bar_h = 6
-
+    # Bottom bar
+    bar_y = legend_y_start + legend_rows * row_h + 6
+    bar_w = 290
+    bar_h = 5
     bar_rects = []
-    bx = bar_x
+    bx = legend_x
     for seg in segments:
         sw = seg["pct"] * bar_w
-        if sw > 1:
+        if sw >= 1:
             bar_rects.append((bx, sw, seg["color"]))
             bx += sw
 
-    # Build SVG string
     lines = []
     lines.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" role="img" '
         f'aria-label="Donut chart of most used programming languages for {USERNAME}">'
     )
-    lines.append(
-        f'<title>Most Used Languages — {USERNAME}</title>'
-    )
+    lines.append(f'<title>Most Used Languages — {USERNAME}</title>')
 
     # Background
     lines.append(
@@ -170,8 +206,12 @@ def build_svg(lang_data):
 
     # Title
     lines.append(
-        f'<text x="20" y="22" font-family="monospace" font-size="11" '
-        f'fill="#34eb5c" letter-spacing="2" opacity="0.7">MOST USED LANGUAGES</text>'
+        f'<text x="20" y="26" font-family="monospace" font-size="11" '
+        f'fill="#34eb5c" letter-spacing="2" opacity="0.85">MOST USED LANGUAGES</text>'
+    )
+    lines.append(
+        f'<line x1="20" y1="33" x2="{W - 20}" y2="33" '
+        f'stroke="#21262d" stroke-width="0.8"/>'
     )
 
     # Donut arcs
@@ -180,44 +220,68 @@ def build_svg(lang_data):
 
     # Center label
     lines.append(
-        f'<text x="{cx}" y="{cy - 6}" text-anchor="middle" font-family="monospace" '
+        f'<text x="{cx}" y="{cy - 12}" text-anchor="middle" font-family="monospace" '
         f'font-size="10" fill="#8b949e">TOP</text>'
     )
     lines.append(
         f'<text x="{cx}" y="{cy + 10}" text-anchor="middle" font-family="monospace" '
-        f'font-size="22" font-weight="bold" fill="#34eb5c">{len(segments)}</text>'
+        f'font-size="28" font-weight="bold" fill="#34eb5c">{len(segments)}</text>'
     )
     lines.append(
-        f'<text x="{cx}" y="{cy + 24}" text-anchor="middle" font-family="monospace" '
+        f'<text x="{cx}" y="{cy + 26}" text-anchor="middle" font-family="monospace" '
         f'font-size="9" fill="#8b949e">LANGS</text>'
     )
 
-    # Legend
-    for name, pct_str, color, y in legend_items:
+    # Vertical divider
+    lines.append(
+        f'<line x1="195" y1="40" x2="195" y2="{H - 20}" '
+        f'stroke="#21262d" stroke-width="0.8"/>'
+    )
+
+    # Legend rows
+    for i, seg in enumerate(segments):
+        y = legend_y_start + i * row_h
+        pct_str = f"{seg['pct']*100:.1f}%"
+
+        # Colored dot
         lines.append(
-            f'<circle cx="{legend_x + 5}" cy="{y + 5}" r="5" fill="{color}"/>'
+            f'<circle cx="{legend_x + 5}" cy="{y + 8}" r="5" fill="{seg["color"]}"/>'
         )
+        # Lang name
         lines.append(
-            f'<text x="{legend_x + 16}" y="{y + 10}" font-family="monospace" '
-            f'font-size="12" fill="#e6edf3">{name}</text>'
+            f'<text x="{legend_x + 18}" y="{y + 13}" font-family="monospace" '
+            f'font-size="12" fill="#e6edf3">{seg["name"]}</text>'
         )
+        # Mini bar background
+        bar_bg_x = legend_x + 155
+        mini_w = 115
         lines.append(
-            f'<text x="{legend_x + 250}" y="{y + 10}" text-anchor="end" '
-            f'font-family="monospace" font-size="12" fill="#34eb5c">{pct_str}</text>'
+            f'<rect x="{bar_bg_x}" y="{y + 4}" width="{mini_w}" height="7" '
+            f'rx="3" fill="#161b22"/>'
+        )
+        # Mini bar fill
+        fill_w = seg["pct"] * mini_w
+        if fill_w >= 1:
+            lines.append(
+                f'<rect x="{bar_bg_x}" y="{y + 4}" width="{fill_w:.2f}" height="7" '
+                f'rx="3" fill="{seg["color"]}"/>'
+            )
+        # Percentage
+        lines.append(
+            f'<text x="{bar_bg_x + mini_w + 8}" y="{y + 13}" '
+            f'font-family="monospace" font-size="11" fill="{seg["color"]}">{pct_str}</text>'
         )
 
-    # Bar
-    bx2 = bar_x
+    # Bottom color bar
     for bx_val, sw, color in bar_rects:
         lines.append(
             f'<rect x="{bx_val:.2f}" y="{bar_y}" width="{sw:.2f}" height="{bar_h}" '
             f'fill="{color}"/>'
         )
-        bx2 += sw
 
-    # Bottom label
+    # Footer
     lines.append(
-        f'<text x="{legend_x}" y="{bar_y + bar_h + 14}" font-family="monospace" '
+        f'<text x="{legend_x}" y="{bar_y + bar_h + 16}" font-family="monospace" '
         f'font-size="9" fill="#484f58">auto-updated · excludes forks &amp; markup</text>'
     )
 
@@ -233,16 +297,16 @@ def main():
         print("No language data found.")
         return
 
-    print("Language breakdown:")
     total = sum(lang_data.values())
-    for lang, b in sorted(lang_data.items(), key=lambda x: x[1], reverse=True)[:10]:
+    print("Language breakdown:")
+    for lang, b in sorted(lang_data.items(), key=lambda x: x[1], reverse=True):
         print(f"  {lang}: {b/total*100:.1f}%")
 
     svg = build_svg(lang_data)
     if svg:
         with open(OUTPUT_PATH, "w") as f:
             f.write(svg)
-        print(f"SVG written to: {OUTPUT_PATH}")
+        print(f"\nSVG written to: {OUTPUT_PATH}")
     else:
         print("Could not generate SVG.")
 
