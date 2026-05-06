@@ -118,7 +118,7 @@ const ashley = {
 </div>
 
 <div align="center">
-  <img src="https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=KodEx-SA&theme=dark&layout=compact&title_color=34eb5c&text_color=13e065&bg_color=0d1117&langs_count=10&hide=html&count_private=true&include_forks=true" width="60%" />
+<img src="languages.svg" width="480" alt="Most Used Languages" />
 </div>
 
 ---
