@@ -3,11 +3,11 @@
 <rect width="540" height="340" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
 <text x="20" y="26" font-family="monospace" font-size="11" fill="#34eb5c" letter-spacing="2" opacity="0.85">MOST USED LANGUAGES</text>
 <line x1="20" y1="33" x2="520" y2="33" stroke="#21262d" stroke-width="0.8"/>
-<path d="M 109.431,88.012 A 82,82 0 0,1 160.074,233.343 L 143.563,213.259 A 56,56 0 0,0 108.977,114.009 Z" fill="#3178C6"/>
-<path d="M 157.831,235.122 A 82,82 0 0,1 59.466,236.094 L 74.855,215.138 A 56,56 0 0,0 142.031,214.473 Z" fill="#F7DF1E"/>
-<path d="M 57.189,234.360 A 82,82 0 0,1 29.442,146.492 L 54.351,153.946 A 56,56 0 0,0 73.300,213.953 Z" fill="#E34C26"/>
-<path d="M 30.310,143.765 A 82,82 0 0,1 71.127,96.758 L 82.818,119.981 A 56,56 0 0,0 54.943,152.083 Z" fill="#563D7C"/>
-<path d="M 73.705,95.516 A 82,82 0 0,1 102.847,88.162 L 104.481,114.111 A 56,56 0 0,0 84.579,119.133 Z" fill="#3572A5"/>
+<path d="M 109.431,88.012 A 82,82 0 0,1 160.548,232.950 L 143.887,212.990 A 56,56 0 0,0 108.977,114.009 Z" fill="#3178C6"/>
+<path d="M 158.319,234.745 A 82,82 0 0,1 57.932,234.940 L 73.807,214.349 A 56,56 0 0,0 142.364,214.216 Z" fill="#F7DF1E"/>
+<path d="M 55.696,233.153 A 82,82 0 0,1 29.533,146.191 L 54.413,153.740 A 56,56 0 0,0 72.281,213.129 Z" fill="#E34C26"/>
+<path d="M 30.411,143.467 A 82,82 0 0,1 71.227,96.708 L 82.887,119.947 A 56,56 0 0,0 55.013,151.880 Z" fill="#563D7C"/>
+<path d="M 73.807,95.469 A 82,82 0 0,1 102.858,88.161 L 104.488,114.110 A 56,56 0 0,0 84.649,119.101 Z" fill="#3572A5"/>
 <text x="108" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">TOP</text>
 <text x="108" y="180" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#34eb5c">9</text>
 <text x="108" y="196" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">LANGS</text>
@@ -15,27 +15,27 @@
 <circle cx="220" cy="52" r="5" fill="#3178C6"/>
 <text x="233" y="57" font-family="monospace" font-size="12" fill="#e6edf3">TypeScript</text>
 <rect x="370" y="48" width="115" height="7" rx="3" fill="#161b22"/>
-<rect x="370" y="48" width="45.23" height="7" rx="3" fill="#3178C6"/>
-<text x="493" y="57" font-family="monospace" font-size="11" fill="#3178C6">39.3%</text>
+<rect x="370" y="48" width="45.09" height="7" rx="3" fill="#3178C6"/>
+<text x="493" y="57" font-family="monospace" font-size="11" fill="#3178C6">39.2%</text>
 <circle cx="220" cy="80" r="5" fill="#F7DF1E"/>
 <text x="233" y="85" font-family="monospace" font-size="12" fill="#e6edf3">JavaScript</text>
 <rect x="370" y="76" width="115" height="7" rx="3" fill="#161b22"/>
-<rect x="370" y="76" width="24.19" height="7" rx="3" fill="#F7DF1E"/>
-<text x="493" y="85" font-family="monospace" font-size="11" fill="#F7DF1E">21.0%</text>
+<rect x="370" y="76" width="24.75" height="7" rx="3" fill="#F7DF1E"/>
+<text x="493" y="85" font-family="monospace" font-size="11" fill="#F7DF1E">21.5%</text>
 <circle cx="220" cy="108" r="5" fill="#E34C26"/>
 <text x="233" y="113" font-family="monospace" font-size="12" fill="#e6edf3">HTML</text>
 <rect x="370" y="104" width="115" height="7" rx="3" fill="#161b22"/>
-<rect x="370" y="104" width="22.48" height="7" rx="3" fill="#E34C26"/>
-<text x="493" y="113" font-family="monospace" font-size="11" fill="#E34C26">19.5%</text>
+<rect x="370" y="104" width="22.12" height="7" rx="3" fill="#E34C26"/>
+<text x="493" y="113" font-family="monospace" font-size="11" fill="#E34C26">19.2%</text>
 <circle cx="220" cy="136" r="5" fill="#563D7C"/>
 <text x="233" y="141" font-family="monospace" font-size="12" fill="#e6edf3">CSS</text>
 <rect x="370" y="132" width="115" height="7" rx="3" fill="#161b22"/>
-<rect x="370" y="132" width="14.89" height="7" rx="3" fill="#563D7C"/>
+<rect x="370" y="132" width="14.85" height="7" rx="3" fill="#563D7C"/>
 <text x="493" y="141" font-family="monospace" font-size="11" fill="#563D7C">12.9%</text>
 <circle cx="220" cy="164" r="5" fill="#3572A5"/>
 <text x="233" y="169" font-family="monospace" font-size="12" fill="#e6edf3">Python</text>
 <rect x="370" y="160" width="115" height="7" rx="3" fill="#161b22"/>
-<rect x="370" y="160" width="7.39" height="7" rx="3" fill="#3572A5"/>
+<rect x="370" y="160" width="7.36" height="7" rx="3" fill="#3572A5"/>
 <text x="493" y="169" font-family="monospace" font-size="11" fill="#3572A5">6.4%</text>
 <circle cx="220" cy="192" r="5" fill="#89E051"/>
 <text x="233" y="197" font-family="monospace" font-size="12" fill="#e6edf3">Shell</text>
@@ -53,10 +53,10 @@
 <text x="233" y="281" font-family="monospace" font-size="12" fill="#e6edf3">Other</text>
 <rect x="370" y="272" width="115" height="7" rx="3" fill="#161b22"/>
 <text x="493" y="281" font-family="monospace" font-size="11" fill="#6E7681">0.2%</text>
-<rect x="215.00" y="302" width="114.05" height="5" fill="#3178C6"/>
-<rect x="329.05" y="302" width="60.99" height="5" fill="#F7DF1E"/>
-<rect x="390.04" y="302" width="56.69" height="5" fill="#E34C26"/>
-<rect x="446.73" y="302" width="37.55" height="5" fill="#563D7C"/>
-<rect x="484.28" y="302" width="18.62" height="5" fill="#3572A5"/>
+<rect x="215.00" y="302" width="113.70" height="5" fill="#3178C6"/>
+<rect x="328.70" y="302" width="62.42" height="5" fill="#F7DF1E"/>
+<rect x="391.12" y="302" width="55.78" height="5" fill="#E34C26"/>
+<rect x="446.90" y="302" width="37.44" height="5" fill="#563D7C"/>
+<rect x="484.34" y="302" width="18.57" height="5" fill="#3572A5"/>
 <text x="215" y="323" font-family="monospace" font-size="9" fill="#484f58">auto-updated · excludes forks &amp; markup</text>
 </svg>
