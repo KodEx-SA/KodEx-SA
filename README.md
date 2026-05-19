@@ -27,7 +27,6 @@
 ```typescript
 const ashley = {
   roles: [
-    "AI Software Developer @ AI Global Networks",
     "Jr Software Developer & IT Technician @ Eullafied Tech Solutions",
     "Web Developer & Graphic Designer @ Maps Media Productions"
   ],
@@ -90,7 +89,7 @@ const ashley = {
       <sub>Live & in production</sub>
     </td>
     <td align="center" width="160">
-      <h2>👥 3</h2>
+      <h2>👥 2</h2>
       <b>Concurrent Roles</b><br/>
       <sub>Across tech & AI firms</sub>
     </td>
