@@ -1,17 +1,23 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:000000&height=180&section=header&text=Ashley%20K%20Motsie&fontSize=48&fontColor=34eb5c&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Rustenburg%2C%20ZA%20%F0%9F%87%BF%F0%9F%87%A6&descAlignY=56&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:34eb5c&height=200&section=header&text=Ashley%20K%20Motsie&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Rustenburg%2C%20ZA%20%F0%9F%87%BF%F0%9F%87%A6&descAlignY=56&descAlign=50&descSize=18" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&pause=1000&color=34EB5C&center=true&vCenter=true&width=650&height=60&lines=Building+the+Future+with+Code+%F0%9F%9A%80;Software+Developer+%7C+AI+%7C+Cloud;3%2B+Years+of+Innovation." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=1000&color=34EB5C&center=true&vCenter=true&width=700&height=60&lines=Building+the+Future+with+Code+%F0%9F%9A%80;AI+Engineer+%7C+Full+Stack+Developer+%7C+Cloud;Open+to+Full-Time+%26+Freelance+Opportunities;3%2B+Years+of+Shipping+Real+Products." alt="Typing SVG" />
 </div>
+
+<br/>
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-34eb5c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:motsieashley31@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ffffff?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://ashleydevhub.vercel.app/)
-[![YouTube](https://img.shields.io/badge/YouTube-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@Ashley.Programmer)
+[![Email](https://img.shields.io/badge/Email-motsieashley31%40gmail.com-34eb5c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:motsieashley31@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashley%20K%20Motsie-34eb5c?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ashleydevhub.vercel.app-000000?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://ashleydevhub.vercel.app/)
+[![YouTube](https://img.shields.io/badge/YouTube-Ashley.Programmer-34eb5c?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@Ashley.Programmer)
+
+</div>
+
+<div align="center">
 
 [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
 [![committers.top badge](https://user-badge.committers.top/south_africa_public/KodEx-SA.svg)](https://user-badge.committers.top/south_africa_public/KodEx-SA)
@@ -25,16 +31,81 @@
 ## 👨‍💻 About Me
 
 ```typescript
-const ashley = {
+const ashley: Developer = {
+  name:     "Ashley K Motsie",
+  location: "Rustenburg, South Africa 🇿🇦",
   roles: [
     "Jr Software Developer & IT Technician @ Eullafied Tech Solutions",
-    "Web Developer & Graphic Designer @ Maps Media Productions"
+    "Web Developer & Graphic Designer @ Maps Media Productions",
   ],
-  stack: ["Next.js 15", "React", "TypeScript", "Python", "PostgreSQL", "Groq API"],
-  currently: ["Property Management Platform (Turborepo + Supabase)", "Smith AI Chatbot", "SafeCircle Safety App"],
-  motto: "Transforming ideas into scalable solutions 🚀"
+  stack: {
+    frontend:  ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Vite"],
+    backend:   ["Node.js", "Python", "PostgreSQL", "Supabase", "Prisma"],
+    ai:        ["Groq API", "LangChain", "OpenAI", "LiveKit"],
+    devops:    ["AWS", "Docker", "Vercel", "GitHub Actions"],
+  },
+  building:  ["Property Management Platform", "Smith AI Chatbot", "SafeCircle Safety App"],
+  available: true,
+  motto:     "Transforming ideas into scalable solutions 🚀",
 };
 ```
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+<table>
+<tr>
+
+<td width="33%" align="center">
+<img src="https://img.shields.io/badge/SMITH_AI-CHATBOT-34eb5c?style=for-the-badge&labelColor=000000" />
+<br/><br/>
+<b>🤖 Smith AI Chatbot</b>
+<br/><br/>
+<sub>
+A production-grade AI assistant powered by the Groq API and LangChain. Features real-time streaming responses, conversation memory, and a clean chat UI built with React and TypeScript.
+</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/Groq-34eb5c?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=34eb5c" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+</td>
+
+<td width="33%" align="center">
+<img src="https://img.shields.io/badge/SAFECIRCLE-SAFETY_APP-34eb5c?style=for-the-badge&labelColor=000000" />
+<br/><br/>
+<b>🛡️ SafeCircle Safety App</b>
+<br/><br/>
+<sub>
+A real-time personal safety platform enabling location sharing, emergency alerts, and trusted contact circles. Built with Next.js 15 and Supabase for live data sync and instant notifications.
+</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=34eb5c" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+</td>
+
+<td width="33%" align="center">
+<img src="https://img.shields.io/badge/REACTJS-AI_CHATBOT-34eb5c?style=for-the-badge&labelColor=000000" />
+<br/><br/>
+<b>💬 ReactJS AI Chatbot</b>
+<br/><br/>
+<sub>
+A lightweight embedded chatbot widget built in React, designed for quick deployment on client websites. Integrates with OpenAI for smart responses and includes customisable UI theming.
+</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+</td>
+
+</tr>
+</table>
+</div>
 
 ---
 
@@ -42,32 +113,13 @@ const ashley = {
 
 <div align="center">
 
-**Frontend**  
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=34eb5c)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-**Backend & Database**  
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-**AI / ML**  
-![Groq](https://img.shields.io/badge/Groq_API-34eb5c?style=flat-square&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=34eb5c)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LiveKit](https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square&logoColor=white)
-
-**Cloud & DevOps**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=34eb5c)
-![GitHub Actions](https://img.shields.io/badge/Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white)
+| Layer | Technologies |
+|---|---|
+| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=34eb5c) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white) |
+| **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
+| **AI / ML** | ![Groq](https://img.shields.io/badge/Groq_API-34eb5c?style=flat-square&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=34eb5c) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![LiveKit](https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square&logoColor=white) |
+| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=34eb5c) ![GitHub Actions](https://img.shields.io/badge/Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white) |
 
 </div>
 
@@ -76,35 +128,13 @@ const ashley = {
 ## 📈 Impact & Metrics
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center" width="160">
-      <h2>🤖 2</h2>
-      <b>Production AI Systems</b><br/>
-      <sub>Smith AI · ReactJS Chatbot</sub>
-    </td>
-    <td align="center" width="160">
-      <h2>🌐 5+</h2>
-      <b>Client Sites Delivered</b><br/>
-      <sub>Live & in production</sub>
-    </td>
-    <td align="center" width="160">
-      <h2>👥 2</h2>
-      <b>Concurrent Roles</b><br/>
-      <sub>Across tech & AI firms</sub>
-    </td>
-    <td align="center" width="160">
-      <h2>☁️ 3+</h2>
-      <b>Cloud Platforms</b><br/>
-      <sub>Vercel · Netlify · Render</sub>
-    </td>
-    <td align="center" width="160">
-      <h2>📅 3+</h2>
-      <b>Years Experience</b><br/>
-      <sub>Building & shipping</sub>
-    </td>
-  </tr>
-</table>
+
+| 🤖 | 🌐 | 👥 | ☁️ | 📅 |
+|:---:|:---:|:---:|:---:|:---:|
+| **2** | **5+** | **2** | **3+** | **3+** |
+| Production AI Systems | Client Sites Delivered | Concurrent Roles | Cloud Platforms | Years Experience |
+| Smith AI · ReactJS Chatbot | Live & in production | Across tech & AI firms | Vercel · Netlify · Render | Building & shipping |
+
 </div>
 
 ---
@@ -112,12 +142,12 @@ const ashley = {
 ## 📊 GitHub Stats
 
 <div align="center">
-<img src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117" width="49%" />
-<img src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065" width="49%" />
+  <img src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=dark&show_icons=true&count_private=true&title_color=34eb5c&icon_color=13e065&text_color=13e065&bg_color=0d1117&border_color=34eb5c" width="49%" />
+  <img src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=dark&ring=13e065&fire=34eb5c&currStreakLabel=13e065&border=34eb5c" width="49%" />
 </div>
 
 <div align="center">
-<img src="languages.svg" width="480" alt="Most Used Languages" />
+  <img src="languages.svg" width="520" alt="Most Used Languages" />
 </div>
 
 ---
@@ -134,9 +164,13 @@ const ashley = {
 
 <div align="center">
 
-*Open to full-time roles, freelance, and collaboration - reach out anytime.*  
-**motsieashley31@gmail.com** · SAST (UTC+2) · Responds within 24hrs
+### 💼 Open to full-time roles, freelance & collaboration
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:000000&height=100&section=footer&text=SYSTEM+ONLINE&fontSize=18&fontColor=34eb5c&animation=twinkling" width="100%" />
+*Currently based in Rustenburg, ZA (SAST · UTC+2) — responds within 24hrs*
+
+[![Hire Me](https://img.shields.io/badge/Hire%20Me-34eb5c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:motsieashley31@gmail.com)
+[![View Portfolio](https://img.shields.io/badge/View%20Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=34eb5c)](https://ashleydevhub.vercel.app/)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:34eb5c,100:000000&height=120&section=footer&text=SYSTEM+ONLINE&fontSize=20&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%" />
 
 </div>
