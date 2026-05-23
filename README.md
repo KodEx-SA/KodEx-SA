@@ -26,7 +26,7 @@
 
 </div>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 ## 👨‍💻 About Me
 
@@ -50,7 +50,7 @@ const ashley: Developer = {
 };
 ```
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 ## 🚀 Featured Projects
 
@@ -113,7 +113,7 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 </table>
 </div>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 ## ⚡ Tech Stack
 
@@ -129,7 +129,7 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 
 </div>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 ## 📈 Impact & Metrics
 
@@ -143,7 +143,7 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 
 </div>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 ## 📊 GitHub Stats
 
@@ -156,7 +156,7 @@ A lightweight embedded chatbot widget built in React for quick client deployment
   <img src="languages.svg" width="520" alt="Most Used Languages" />
 </div>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 ## 🐍 Contribution Graph
 
@@ -166,7 +166,7 @@ A lightweight embedded chatbot widget built in React for quick client deployment
   <img alt="github-snake" src="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
 <div align="center">
 
