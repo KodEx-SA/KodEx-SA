@@ -2,17 +2,14 @@ import os
 import json
 import math
 import urllib.request
-import urllib.error
 
 USERNAME = os.environ.get("GITHUB_USERNAME", "KodEx-SA")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "languages.svg")
 
-# Only exclude pure markup/config
 EXCLUDE_LANGS = {"Markdown", "MDX", "Text", "Batchfile", "Makefile"}
 MAX_LANGS = 8
 
-# Visually distinct colors per language
 LANG_COLORS = {
     "TypeScript":        "#3178C6",
     "JavaScript":        "#F7DF1E",
@@ -43,8 +40,8 @@ LANG_COLORS = {
 }
 
 FALLBACK_COLORS = [
-    "#34eb5c", "#e05c34", "#5c34eb", "#eb34b1",
-    "#34b1eb", "#ebb134", "#34ebb1", "#b134eb",
+    "#00c9c9", "#0099aa", "#006e8a", "#00c9ff",
+    "#4dd0e1", "#00838f", "#00acc1", "#26c6da",
 ]
 
 
@@ -136,20 +133,11 @@ def build_svg(lang_data):
         color = get_color(lang, fallback_idx)
         if lang not in LANG_COLORS:
             fallback_idx += 1
-        segments.append({
-            "name": lang,
-            "pct": bytes_count / total,
-            "color": color,
-        })
+        segments.append({"name": lang, "pct": bytes_count / total, "color": color})
 
     if other_bytes > 0:
-        segments.append({
-            "name": "Other",
-            "pct": other_bytes / total,
-            "color": LANG_COLORS["Other"],
-        })
+        segments.append({"name": "Other", "pct": other_bytes / total, "color": LANG_COLORS["Other"]})
 
-    # Dynamic height based on legend rows
     W = 540
     legend_rows = len(segments)
     row_h = 28
@@ -161,7 +149,6 @@ def build_svg(lang_data):
     R, thickness = 82, 26
     gap_deg = 2.0
 
-    # Build donut arcs
     current_angle = 0
     arc_paths = []
     for seg in segments:
@@ -177,8 +164,6 @@ def build_svg(lang_data):
 
     legend_x = 215
     legend_y_start = padding_top - 4
-
-    # Bottom bar
     bar_y = legend_y_start + legend_rows * row_h + 6
     bar_w = 290
     bar_h = 5
@@ -198,91 +183,74 @@ def build_svg(lang_data):
     )
     lines.append(f'<title>Most Used Languages — {USERNAME}</title>')
 
-    # Background
+    # Ocean-themed background
     lines.append(
-        f'<rect width="{W}" height="{H}" rx="12" '
-        f'fill="#0d1117" stroke="#21262d" stroke-width="1"/>'
+        f'<rect width="{W}" height="{H}" rx="10" fill="#0a0a0a" stroke="#00c9c9" stroke-width="1"/>'
     )
 
     # Title
     lines.append(
-        f'<text x="20" y="26" font-family="monospace" font-size="11" '
-        f'fill="#34eb5c" letter-spacing="2" opacity="0.85">MOST USED LANGUAGES</text>'
+        f'<text x="20" y="26" font-family="\'Segoe UI\', Ubuntu, sans-serif" font-size="13" '
+        f'font-weight="600" fill="#00c9c9" letter-spacing="1">Most Used Languages</text>'
     )
     lines.append(
-        f'<line x1="20" y1="33" x2="{W - 20}" y2="33" '
-        f'stroke="#21262d" stroke-width="0.8"/>'
+        f'<line x1="20" y1="33" x2="{W - 20}" y2="33" stroke="#003d4d" stroke-width="0.8"/>'
     )
 
-    # Donut arcs
     for path_d, color in arc_paths:
         lines.append(f'<path d="{path_d}" fill="{color}"/>')
 
     # Center label
     lines.append(
         f'<text x="{cx}" y="{cy - 12}" text-anchor="middle" font-family="monospace" '
-        f'font-size="10" fill="#8b949e">TOP</text>'
+        f'font-size="10" fill="#006e8a">TOP</text>'
     )
     lines.append(
         f'<text x="{cx}" y="{cy + 10}" text-anchor="middle" font-family="monospace" '
-        f'font-size="28" font-weight="bold" fill="#34eb5c">{len(segments)}</text>'
+        f'font-size="28" font-weight="bold" fill="#00c9c9">{len(segments)}</text>'
     )
     lines.append(
         f'<text x="{cx}" y="{cy + 26}" text-anchor="middle" font-family="monospace" '
-        f'font-size="9" fill="#8b949e">LANGS</text>'
+        f'font-size="9" fill="#006e8a">LANGS</text>'
     )
 
     # Vertical divider
     lines.append(
-        f'<line x1="195" y1="40" x2="195" y2="{H - 20}" '
-        f'stroke="#21262d" stroke-width="0.8"/>'
+        f'<line x1="195" y1="40" x2="195" y2="{H - 20}" stroke="#003d4d" stroke-width="0.8"/>'
     )
 
-    # Legend rows
     for i, seg in enumerate(segments):
         y = legend_y_start + i * row_h
         pct_str = f"{seg['pct']*100:.1f}%"
-
-        # Colored dot
+        lines.append(f'<circle cx="{legend_x + 5}" cy="{y + 8}" r="5" fill="{seg["color"]}"/>')
         lines.append(
-            f'<circle cx="{legend_x + 5}" cy="{y + 8}" r="5" fill="{seg["color"]}"/>'
+            f'<text x="{legend_x + 18}" y="{y + 13}" font-family="\'Segoe UI\', Ubuntu, sans-serif" '
+            f'font-size="12" fill="#e0f7fa">{seg["name"]}</text>'
         )
-        # Lang name
-        lines.append(
-            f'<text x="{legend_x + 18}" y="{y + 13}" font-family="monospace" '
-            f'font-size="12" fill="#e6edf3">{seg["name"]}</text>'
-        )
-        # Mini bar background
         bar_bg_x = legend_x + 155
         mini_w = 115
         lines.append(
-            f'<rect x="{bar_bg_x}" y="{y + 4}" width="{mini_w}" height="7" '
-            f'rx="3" fill="#161b22"/>'
+            f'<rect x="{bar_bg_x}" y="{y + 4}" width="{mini_w}" height="7" rx="3" fill="#0d2a33"/>'
         )
-        # Mini bar fill
         fill_w = seg["pct"] * mini_w
         if fill_w >= 1:
             lines.append(
                 f'<rect x="{bar_bg_x}" y="{y + 4}" width="{fill_w:.2f}" height="7" '
                 f'rx="3" fill="{seg["color"]}"/>'
             )
-        # Percentage
         lines.append(
             f'<text x="{bar_bg_x + mini_w + 8}" y="{y + 13}" '
             f'font-family="monospace" font-size="11" fill="{seg["color"]}">{pct_str}</text>'
         )
 
-    # Bottom color bar
     for bx_val, sw, color in bar_rects:
         lines.append(
-            f'<rect x="{bx_val:.2f}" y="{bar_y}" width="{sw:.2f}" height="{bar_h}" '
-            f'fill="{color}"/>'
+            f'<rect x="{bx_val:.2f}" y="{bar_y}" width="{sw:.2f}" height="{bar_h}" fill="{color}"/>'
         )
 
-    # Footer
     lines.append(
         f'<text x="{legend_x}" y="{bar_y + bar_h + 16}" font-family="monospace" '
-        f'font-size="9" fill="#484f58">auto-updated · excludes forks &amp; markup</text>'
+        f'font-size="9" fill="#004d5c">auto-updated · excludes forks &amp; markup</text>'
     )
 
     lines.append("</svg>")
@@ -292,16 +260,13 @@ def build_svg(lang_data):
 def main():
     print(f"Fetching language stats for: {USERNAME}")
     lang_data = get_language_bytes(USERNAME, TOKEN)
-
     if not lang_data:
         print("No language data found.")
         return
-
     total = sum(lang_data.values())
     print("Language breakdown:")
     for lang, b in sorted(lang_data.items(), key=lambda x: x[1], reverse=True):
         print(f"  {lang}: {b/total*100:.1f}%")
-
     svg = build_svg(lang_data)
     if svg:
         with open(OUTPUT_PATH, "w") as f:
