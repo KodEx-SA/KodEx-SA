@@ -158,7 +158,7 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
-## 🐍 Contribution Graph
+## 🌊 Coding Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake-dark.svg" />
@@ -170,12 +170,13 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 
 <div align="center">
 
-### 💼 Open to full-time roles, freelance & collaboration
+### 💼 Open to full-time roles, freelance & remote collaboration
 
 *Currently based in Rustenburg, ZA · SAST (UTC+2) · Responds within 24hrs*
 
 [![Hire Me](https://img.shields.io/badge/Hire%20Me-00c9c9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0a)](mailto:motsieashley31@gmail.com)
 [![View Portfolio](https://img.shields.io/badge/View%20Portfolio-0a0a0a?style=for-the-badge&logo=google-chrome&logoColor=0a0a0a&labelColor=00c9c9)](https://ashleydevhub.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/Connect-00c9c9?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0a)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9c9,50:003d4d,100:0a0a0a&height=120&section=footer&text=SYSTEM+ONLINE&fontSize=20&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%" />
 
