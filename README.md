@@ -34,21 +34,72 @@
 const ashley: Developer = {
   name:     "Ashley K Motsie",
   location: "Rustenburg, South Africa 🇿🇦",
-  roles: [
-    "Jr Software Developer & IT Technician @ Eullafied Tech Solutions",
-    "Web Developer & Graphic Designer @ Maps Media Productions",
-  ],
+  currentRole: "Web Developer & Graphic Designer @ Maps Media Productions",
   stack: {
     frontend:  ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Vite"],
     backend:   ["Node.js", "Python", "PostgreSQL", "Supabase", "Prisma"],
-    ai:        ["Groq API", "LangChain", "OpenAI", "LiveKit"],
+    ai:        ["Groq API", "Deepgram", "Cartesia", "LangChain", "LiveKit"],
+    web3:      ["Solidity", "wagmi", "RainbowKit"],
     devops:    ["AWS", "Docker", "Vercel", "GitHub Actions"],
   },
-  building:  ["Property Management Platform", "Smith AI Chatbot", "SafeCircle Safety App"],
-  available: true,
+  building:  ["AI Voice Assistant (Clare)", "Trading-R1 Trace Market", "ETS WiFi Captive Portal"],
+  status:    "Contracts completed - open to new full-time / remote opportunities 🟢",
   motto:     "Transforming ideas into scalable solutions 🚀",
 };
 ```
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
+
+## 🧭 Experience Timeline
+
+<div align="center">
+<table>
+
+<tr>
+<td width="18%" align="center"><b>Jul 2025 - May 2026</b></td>
+<td>
+
+**Software Developer & AI Engineer** · AI Global Networks
+<br/>
+<sub>Consulted on the AGN site (Groq-powered chatbot, Google Calendar booking integration) and built `webaudit`, a Playwright-based CLI auditing tool.</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/CONTRACT-COMPLETED-00c9c9?style=flat-square&labelColor=0a0a0a" />
+
+</td>
+</tr>
+
+<tr><td colspan="2"><div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:003d4d,100:0a0a0a&height=1&section=header" width="100%"/></div></td></tr>
+
+<tr>
+<td width="18%" align="center"><b>Jun 2025 - May 2026</b></td>
+<td>
+
+**Jr Software Developer & IT Technician** · Eullafied Tech Solutions
+<br/>
+<sub>Shipped the ETS WiFi Captive Portal (Node.js/Express/SQLite, AES-256-GCM, JWT) and the Intern Management System monorepo, end to end.</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/CONTRACT-COMPLETED-00c9c9?style=flat-square&labelColor=0a0a0a" />
+
+</td>
+</tr>
+
+<tr><td colspan="2"><div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:003d4d,100:0a0a0a&height=1&section=header" width="100%"/></div></td></tr>
+
+<tr>
+<td width="18%" align="center"><b>Ongoing</b></td>
+<td>
+
+**Web Developer & Graphic Designer** · Maps Media Productions
+<br/>
+<sub>Web development and graphic design across client sites and campaigns.</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-39d353?style=flat-square&labelColor=0a0a0a" />
+
+</td>
+</tr>
+
+</table>
+</div>
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
@@ -60,52 +111,52 @@ const ashley: Developer = {
 
 <td width="33%" align="center">
 
-<img src="https://img.shields.io/badge/SMITH_AI-CHATBOT-00c9c9?style=for-the-badge&labelColor=0a0a0a" />
+<img src="https://img.shields.io/badge/CLARE-AI_VOICE_ASSISTANT-00c9c9?style=for-the-badge&labelColor=0a0a0a" />
 <br/><br/>
-<b>🤖 Smith AI Chatbot</b>
-<br/><br/>
-<sub>
-A production-grade AI assistant powered by Groq API and LangChain. Features real-time streaming responses, conversation memory, and a clean chat UI built with React and TypeScript.
-</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/Groq-00c9c9?style=flat-square&logoColor=white" />
-<img src="https://img.shields.io/badge/LangChain-0a0a0a?style=flat-square&logo=langchain&logoColor=00c9c9" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-
-</td>
-
-<td width="33%" align="center">
-
-<img src="https://img.shields.io/badge/SAFECIRCLE-SAFETY_APP-006e8a?style=for-the-badge&labelColor=0a0a0a" />
-<br/><br/>
-<b>🛡️ SafeCircle Safety App</b>
+<b>🎙️ Clare — AI Voice Assistant</b>
 <br/><br/>
 <sub>
-A real-time personal safety platform enabling location sharing, emergency alerts, and trusted contact circles. Built with Next.js 15 and Supabase for live data sync and instant notifications.
+A full voice-AI pipeline with persistent memory and a live Mission Control Dashboard. Runs on a free-tier provider stack — Deepgram STT, Groq LLM, Cartesia TTS, Silero VAD — backed by Supabase.
 </sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=next.js&logoColor=00c9c9" />
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/Groq-00c9c9?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black" />
 
 </td>
 
 <td width="33%" align="center">
 
-<img src="https://img.shields.io/badge/REACTJS-AI_CHATBOT-0099aa?style=for-the-badge&labelColor=0a0a0a" />
+<img src="https://img.shields.io/badge/TRADING_R1-TRACE_MARKET-006e8a?style=for-the-badge&labelColor=0a0a0a" />
 <br/><br/>
-<b>💬 ReactJS AI Chatbot</b>
+<b>⛓️ Trading-R1 Trace Market</b>
 <br/><br/>
 <sub>
-A lightweight embedded chatbot widget built in React for quick client deployment. Integrates OpenAI for smart responses with customisable UI theming and zero-dependency embedding.
+A reasoning-trace marketplace built for the Agora Agents Hackathon. Two Solidity contracts deployed on Arc Testnet, a Next.js 15 frontend with wagmi/RainbowKit, and a Python agent pipeline on Groq + Pinata.
 </sub>
 <br/><br/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=next.js&logoColor=00c9c9" />
+<img src="https://img.shields.io/badge/wagmi-1C1B1F?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
+
+</td>
+
+<td width="33%" align="center">
+
+<img src="https://img.shields.io/badge/ETS_WIFI-CAPTIVE_PORTAL-0099aa?style=for-the-badge&labelColor=0a0a0a" />
+<br/><br/>
+<b>📡 ETS WiFi Captive Portal</b>
+<br/><br/>
+<sub>
+A production network-access system built for Eullafied Tech Solutions. Node.js/Express/SQLite backend with AES-256-GCM encryption and JWT auth, plus a Network Agent driving hostapd/dnsmasq/iptables.
+</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-0a0a0a?style=flat-square&logo=express&logoColor=00c9c9" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 
 </td>
 
@@ -124,7 +175,8 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 | **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=next.js&logoColor=00c9c9) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
 | **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white) |
 | **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
-| **AI / ML** | ![Groq](https://img.shields.io/badge/Groq_API-00c9c9?style=flat-square&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-0a0a0a?style=flat-square&logo=langchain&logoColor=00c9c9) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![LiveKit](https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square&logoColor=white) |
+| **AI / ML** | ![Groq](https://img.shields.io/badge/Groq_API-00c9c9?style=flat-square&logoColor=white) ![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black) ![Cartesia](https://img.shields.io/badge/Cartesia-0a0a0a?style=flat-square&logoColor=00c9c9) ![LangChain](https://img.shields.io/badge/LangChain-0a0a0a?style=flat-square&logo=langchain&logoColor=00c9c9) ![LiveKit](https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square&logoColor=white) |
+| **Web3** | ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![wagmi](https://img.shields.io/badge/wagmi-1C1B1F?style=flat-square&logoColor=white) |
 | **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-0a0a0a?style=flat-square&logo=vercel&logoColor=00c9c9) ![GitHub Actions](https://img.shields.io/badge/Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white) |
 
 </div>
@@ -135,11 +187,11 @@ A lightweight embedded chatbot widget built in React for quick client deployment
 
 <div align="center">
 
-| 🤖 | 🌐 | 👥 | ☁️ | 📅 |
+| 🤖 | 🌐 | ✅ | ☁️ | 📅 |
 |:---:|:---:|:---:|:---:|:---:|
 | **2** | **5+** | **2** | **3+** | **3+** |
-| Production AI Systems | Client Sites Delivered | Concurrent Roles | Cloud Platforms | Years Experience |
-| Smith AI · ReactJS Chatbot | Live & in production | Across tech & AI firms | Vercel · Netlify · Render | Building & shipping |
+| Production AI Systems | Client Sites Delivered | Contracts Completed | Cloud Platforms | Years Experience |
+| Clare · Trading-R1 | Live & in production | ETS · AI Global Networks | Vercel · Netlify · Render | Building & shipping |
 
 </div>
 
