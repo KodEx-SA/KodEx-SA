@@ -3,14 +3,14 @@
 <rect width="540" height="340" rx="10" fill="#0a0a0a" stroke="#00c9c9" stroke-width="1"/>
 <text x="20" y="26" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#00c9c9" letter-spacing="1">Most Used Languages</text>
 <line x1="20" y1="33" x2="520" y2="33" stroke="#003d4d" stroke-width="0.8"/>
-<path d="M 109.431,88.012 A 82,82 0 0,1 185.273,197.440 L 160.771,188.740 A 56,56 0 0,0 108.977,114.009 Z" fill="#3178C6"/>
-<path d="M 184.268,200.120 A 82,82 0 0,1 113.830,251.792 L 111.981,225.858 A 56,56 0 0,0 160.085,190.570 Z" fill="#F7DF1E"/>
-<path d="M 110.972,251.946 A 82,82 0 0,1 38.411,213.376 L 60.476,199.622 A 56,56 0 0,0 110.030,225.963 Z" fill="#00c9c9"/>
-<path d="M 36.940,210.920 A 82,82 0 0,1 32.016,139.170 L 56.109,148.945 A 56,56 0 0,0 59.471,197.946 Z" fill="#E34C26"/>
-<path d="M 33.139,136.537 A 82,82 0 0,1 64.653,100.394 L 78.397,122.464 A 56,56 0 0,0 56.875,147.147 Z" fill="#563D7C"/>
-<path d="M 67.109,98.923 A 82,82 0 0,1 93.549,89.283 L 98.131,114.876 A 56,56 0 0,0 80.074,121.460 Z" fill="#3572A5"/>
-<path d="M 96.375,88.828 A 82,82 0 0,1 98.284,88.578 L 101.365,114.394 A 56,56 0 0,0 100.061,114.566 Z" fill="#00B4AB"/>
-<path d="M 103.588,88.119 A 82,82 0 0,1 106.569,88.012 L 107.023,114.009 A 56,56 0 0,0 104.987,114.081 Z" fill="#6E7681"/>
+<path d="M 109.431,88.012 A 82,82 0 0,1 185.253,197.496 L 160.758,188.778 A 56,56 0 0,0 108.977,114.009 Z" fill="#3178C6"/>
+<path d="M 184.246,200.175 A 82,82 0 0,1 113.787,251.796 L 111.952,225.860 A 56,56 0 0,0 160.070,190.608 Z" fill="#F7DF1E"/>
+<path d="M 110.928,251.948 A 82,82 0 0,1 38.396,213.351 L 60.466,199.606 A 56,56 0 0,0 110.000,225.964 Z" fill="#00c9c9"/>
+<path d="M 36.926,210.895 A 82,82 0 0,1 32.022,139.155 L 56.113,148.935 A 56,56 0 0,0 59.461,197.929 Z" fill="#E34C26"/>
+<path d="M 33.145,136.522 A 82,82 0 0,1 64.659,100.390 L 78.402,122.461 A 56,56 0 0,0 56.880,147.137 Z" fill="#563D7C"/>
+<path d="M 67.115,98.920 A 82,82 0 0,1 93.552,89.283 L 98.133,114.876 A 56,56 0 0,0 80.079,121.457 Z" fill="#3572A5"/>
+<path d="M 96.377,88.828 A 82,82 0 0,1 98.286,88.577 L 101.366,114.394 A 56,56 0 0,0 100.063,114.565 Z" fill="#00B4AB"/>
+<path d="M 103.589,88.119 A 82,82 0 0,1 106.569,88.012 L 107.023,114.009 A 56,56 0 0,0 104.988,114.081 Z" fill="#6E7681"/>
 <text x="108" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#006e8a">TOP</text>
 <text x="108" y="180" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#00c9c9">9</text>
 <text x="108" y="196" text-anchor="middle" font-family="monospace" font-size="9" fill="#006e8a">LANGS</text>
@@ -18,7 +18,7 @@
 <circle cx="220" cy="52" r="5" fill="#3178C6"/>
 <text x="233" y="57" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#e0f7fa">TypeScript</text>
 <rect x="370" y="48" width="115" height="7" rx="3" fill="#0d2a33"/>
-<rect x="370" y="48" width="35.31" height="7" rx="3" fill="#3178C6"/>
+<rect x="370" y="48" width="35.33" height="7" rx="3" fill="#3178C6"/>
 <text x="493" y="57" font-family="monospace" font-size="11" fill="#3178C6">30.7%</text>
 <circle cx="220" cy="80" r="5" fill="#F7DF1E"/>
 <text x="233" y="85" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#e0f7fa">JavaScript</text>
@@ -33,7 +33,7 @@
 <circle cx="220" cy="136" r="5" fill="#E34C26"/>
 <text x="233" y="141" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#e0f7fa">HTML</text>
 <rect x="370" y="132" width="115" height="7" rx="3" fill="#0d2a33"/>
-<rect x="370" y="132" width="17.26" height="7" rx="3" fill="#E34C26"/>
+<rect x="370" y="132" width="17.25" height="7" rx="3" fill="#E34C26"/>
 <text x="493" y="141" font-family="monospace" font-size="11" fill="#E34C26">15.0%</text>
 <circle cx="220" cy="164" r="5" fill="#563D7C"/>
 <text x="233" y="169" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#e0f7fa">CSS</text>
@@ -59,10 +59,10 @@
 <rect x="370" y="272" width="115" height="7" rx="3" fill="#0d2a33"/>
 <rect x="370" y="272" width="1.30" height="7" rx="3" fill="#6E7681"/>
 <text x="493" y="281" font-family="monospace" font-size="11" fill="#6E7681">1.1%</text>
-<rect x="215.00" y="302" width="89.05" height="5" fill="#3178C6"/>
-<rect x="304.05" y="302" width="53.47" height="5" fill="#F7DF1E"/>
-<rect x="357.52" y="302" width="50.06" height="5" fill="#00c9c9"/>
-<rect x="407.58" y="302" width="43.52" height="5" fill="#E34C26"/>
+<rect x="215.00" y="302" width="89.09" height="5" fill="#3178C6"/>
+<rect x="304.09" y="302" width="53.46" height="5" fill="#F7DF1E"/>
+<rect x="357.55" y="302" width="50.05" height="5" fill="#00c9c9"/>
+<rect x="407.60" y="302" width="43.51" height="5" fill="#E34C26"/>
 <rect x="451.10" y="302" width="29.00" height="5" fill="#563D7C"/>
 <rect x="480.10" y="302" width="17.53" height="5" fill="#3572A5"/>
 <rect x="497.63" y="302" width="2.69" height="5" fill="#00B4AB"/>
