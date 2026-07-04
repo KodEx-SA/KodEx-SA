@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=1000&color=00C9C9&center=true&vCenter=true&width=700&height=60&lines=Building+the+Future+with+Code+%F0%9F%9A%80;AI+Engineer+%7C+Full+Stack+Developer+%7C+Cloud;Open+to+Full-Time%2C+Freelance+%26+Remote;3%2B+Years+of+Shipping+Real+Products." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=1000&color=00C9C9&center=true&vCenter=true&width=700&height=60&lines=Building+the+Future+with+Code+%F0%9F%9A%80;AI+Engineer+%7C+Full+Stack+Developer+%7C+Cloud;Open+to+Full-Time%2C+Freelance+%26+Remote;Continuously+Shipping+Real+Products." alt="Typing SVG" />
 </div>
 
 <br/>
@@ -44,7 +44,7 @@ Outside of code I write poetry and I'm learning C from the ground up.
 <table>
 
 <tr>
-<td width="18%" align="center"><b>Jul 2025 - May 2026</b></td>
+<td width="18%" align="center"><b>Jul 2025<br/>– May 2026</b></td>
 <td>
 
 **Software Developer & AI Engineer** · AI Global Networks
@@ -59,7 +59,7 @@ Outside of code I write poetry and I'm learning C from the ground up.
 <tr><td colspan="2"><div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:003d4d,100:0a0a0a&height=1&section=header" width="100%"/></div></td></tr>
 
 <tr>
-<td width="18%" align="center"><b>Jun 2025 - May 2026</b></td>
+<td width="18%" align="center"><b>Jun 2025<br/>– May 2026</b></td>
 <td>
 
 **Jr Software Developer & IT Technician** · Eullafied Tech Solutions
@@ -166,20 +166,6 @@ A production network-access system built for Eullafied Tech Solutions. Node.js/E
 | **AI / ML** | ![Groq](https://img.shields.io/badge/Groq_API-00c9c9?style=flat-square&logoColor=white) ![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black) ![Cartesia](https://img.shields.io/badge/Cartesia-0a0a0a?style=flat-square&logoColor=00c9c9) ![LangChain](https://img.shields.io/badge/LangChain-0a0a0a?style=flat-square&logo=langchain&logoColor=00c9c9) ![LiveKit](https://img.shields.io/badge/LiveKit-FF4F00?style=flat-square&logoColor=white) |
 | **Web3** | ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![wagmi](https://img.shields.io/badge/wagmi-1C1B1F?style=flat-square&logoColor=white) |
 | **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-0a0a0a?style=flat-square&logo=vercel&logoColor=00c9c9) ![GitHub Actions](https://img.shields.io/badge/Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white) |
-
-</div>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
-
-## 📈 Impact & Metrics
-
-<div align="center">
-
-| 🤖 | 🌐 | ✅ | ☁️ | 📅 |
-|:---:|:---:|:---:|:---:|:---:|
-| **2** | **5+** | **2** | **3+** | **3+** |
-| Production AI Systems | Client Sites Delivered | Contracts Completed | Cloud Platforms | Years Experience |
-| Clare · Trading-R1 | Live & in production | ETS · AI Global Networks | Vercel · Netlify · Render | Building & shipping |
 
 </div>
 
