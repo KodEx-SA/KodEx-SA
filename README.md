@@ -30,23 +30,11 @@
 
 ## 👨‍💻 About Me
 
-```typescript
-const ashley: Developer = {
-  name:     "Ashley K Motsie",
-  location: "Rustenburg, South Africa 🇿🇦",
-  currentRole: "Web Developer & Graphic Designer @ Maps Media Productions",
-  stack: {
-    frontend:  ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Vite"],
-    backend:   ["Node.js", "Python", "PostgreSQL", "Supabase", "Prisma"],
-    ai:        ["Groq API", "Deepgram", "Cartesia", "LangChain", "LiveKit"],
-    web3:      ["Solidity", "wagmi", "RainbowKit"],
-    devops:    ["AWS", "Docker", "Vercel", "GitHub Actions"],
-  },
-  building:  ["AI Voice Assistant (Clare)", "Trading-R1 Trace Market", "ETS WiFi Captive Portal"],
-  status:    "Contracts completed - open to new full-time / remote opportunities 🟢",
-  motto:     "Transforming ideas into scalable solutions 🚀",
-};
-```
+I'm a software developer and AI engineer based in Rustenburg, South Africa. I build full-stack web apps and AI-powered systems - from voice assistants and chatbots to network infrastructure and Web3 tools. Most of what I ship is self-taught and production-facing, not just side projects. I've completed contracts at two tech firms and I'm currently freelancing while looking for a remote full-time role where I can keep building things that actually work.
+
+Outside of code I write poetry and I'm learning C from the ground up.
+
+🟢 **Open to full-time remote opportunities.**
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
@@ -113,10 +101,10 @@ const ashley: Developer = {
 
 <img src="https://img.shields.io/badge/CLARE-AI_VOICE_ASSISTANT-00c9c9?style=for-the-badge&labelColor=0a0a0a" />
 <br/><br/>
-<b>🎙️ Clare — AI Voice Assistant</b>
+<b>Clare - AI Voice Assistant</b>
 <br/><br/>
 <sub>
-A full voice-AI pipeline with persistent memory and a live Mission Control Dashboard. Runs on a free-tier provider stack — Deepgram STT, Groq LLM, Cartesia TTS, Silero VAD — backed by Supabase.
+A full voice-AI pipeline with persistent memory and a live Mission Control Dashboard. Runs on a free-tier provider stack - Deepgram STT, Groq LLM, Cartesia TTS, Silero VAD - backed by Supabase.
 </sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=next.js&logoColor=00c9c9" />
@@ -130,7 +118,7 @@ A full voice-AI pipeline with persistent memory and a live Mission Control Dashb
 
 <img src="https://img.shields.io/badge/TRADING_R1-TRACE_MARKET-006e8a?style=for-the-badge&labelColor=0a0a0a" />
 <br/><br/>
-<b>⛓️ Trading-R1 Trace Market</b>
+<b>Trading-R1 Trace Market</b>
 <br/><br/>
 <sub>
 A reasoning-trace marketplace built for the Agora Agents Hackathon. Two Solidity contracts deployed on Arc Testnet, a Next.js 15 frontend with wagmi/RainbowKit, and a Python agent pipeline on Groq + Pinata.
@@ -147,7 +135,7 @@ A reasoning-trace marketplace built for the Agora Agents Hackathon. Two Solidity
 
 <img src="https://img.shields.io/badge/ETS_WIFI-CAPTIVE_PORTAL-0099aa?style=for-the-badge&labelColor=0a0a0a" />
 <br/><br/>
-<b>📡 ETS WiFi Captive Portal</b>
+<b>ETS WiFi Captive Portal</b>
 <br/><br/>
 <sub>
 A production network-access system built for Eullafied Tech Solutions. Node.js/Express/SQLite backend with AES-256-GCM encryption and JWT auth, plus a Network Agent driving hostapd/dnsmasq/iptables.
