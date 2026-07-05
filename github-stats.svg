@@ -8,7 +8,7 @@
   aria-labelledby="descId"
 >
   <title id="titleId">Ashley K Motsie's GitHub Stats, Rank: A</title>
-  <desc id="descId">Total Stars Earned: 68, Total Commits in 2026: 1190, Total PRs: 289, Total Issues: 1, Contributed to (last year): 11</desc>
+  <desc id="descId">Total Stars Earned: 68, Total Commits in 2026: 1214, Total PRs: 289, Total Issues: 1, Contributed to (last year): 11</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -58,7 +58,7 @@
     }
     @keyframes rankAnimation {
       from { stroke-dashoffset: 251.32741; }
-      to   { stroke-dashoffset: 39.29265; }
+      to   { stroke-dashoffset: 39.19140; }
     }
     @keyframes scaleInAnimation {
       from { transform: translate(-5px, 5px) scale(0); }
