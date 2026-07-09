@@ -8,7 +8,7 @@
   aria-labelledby="descId"
 >
   <title id="titleId">Ashley K Motsie's GitHub Stats, Rank: A</title>
-  <desc id="descId">Total Stars Earned: 68, Total Commits in 2026: 1248, Total PRs: 297, Total Issues: 2, Contributed to (last year): 11</desc>
+  <desc id="descId">Total Stars Earned: 55, Total Commits in 2026: 1248, Total PRs: 297, Total Issues: 2, Contributed to (last year): 11</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -58,7 +58,7 @@
     }
     @keyframes rankAnimation {
       from { stroke-dashoffset: 251.32741; }
-      to   { stroke-dashoffset: 38.28791; }
+      to   { stroke-dashoffset: 39.11041; }
     }
     @keyframes scaleInAnimation {
       from { transform: translate(-5px, 5px) scale(0); }
@@ -102,7 +102,7 @@
             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
           </svg>
           <text class="stat bold" x="25" y="12.5">Total Stars Earned:</text>
-          <text class="stat bold" x="219.01" y="12.5" data-testid="stars">68</text>
+          <text class="stat bold" x="219.01" y="12.5" data-testid="stars">55</text>
         </g>
       </g>
 
