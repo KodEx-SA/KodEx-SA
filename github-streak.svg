@@ -79,7 +79,7 @@
                     fill='#9E9E9E' stroke='none'
                     font-family='"Segoe UI", Ubuntu, sans-serif'
                     font-weight='400' font-size='12px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Jul 12 - Jul 12</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Jul 13 - Jul 13</text>
             </g>
             <!-- Ring around number -->
             <g mask='url(#mask_out_ring_behind_fire)'>
