@@ -184,7 +184,7 @@ A production network-access system built for Eullafied Tech Solutions. Node.js/E
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
 
-## 🌊 Coding Activity
+<!-- ## 🌊 Coding Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake-dark.svg" />
@@ -193,7 +193,7 @@ A production network-access system built for Eullafied Tech Solutions. Node.js/E
 </picture>
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d4d,50:00c9c9,100:003d4d&height=2&section=header" width="100%"/></div>
-
+-->
 <div align="center">
 
 ### 💼 Open to full-time roles, freelance & remote collaboration
