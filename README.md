@@ -127,16 +127,16 @@ A reasoning-trace marketplace built for the Agora Agents Hackathon. Two Solidity
 
 <td width="33%" align="center">
 
-<img src="https://img.shields.io/badge/ETS_WIFI-CAPTIVE_PORTAL-7dcfff?style=for-the-badge&labelColor=1a1b26" />
+<img src="https://img.shields.io/badge/DRIVER-DROWSINESS_MONITOR-f7768e?style=for-the-badge&labelColor=1a1b26" />
 <br/><br/>
-<b>ETS WiFi Captive Portal</b>
+<b>Driver Drowsiness & Fatigue Monitor</b>
 <br/><br/>
 <sub>
-A production network-access system built for Eullafied Tech Solutions. Node.js/Express/SQLite backend with AES-256-GCM encryption and JWT auth, plus a Network Agent driving hostapd/dnsmasq/iptables.
+A computer-vision safety system tracking eye closure, yawns, and gaze to compute a real-time fatigue score and trigger high-risk alerts. Includes a dashboard for logging events and exporting driving data.
 </sub>
 <br/><br/>
-<img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
 
 </td>
 
