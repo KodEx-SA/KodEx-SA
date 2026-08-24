@@ -21,7 +21,7 @@ jobs:
         with:
           github_user_name: KodEx-SA
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23bb9af7&color_dots=%231a1b26,%233b4261,%23565f89,%237aa2f7,%237dcfff
+            dist/github-contribution-grid-snake.svg?color_snake=#bb9af7&color_dots=#1a1b26,#3b4261,#565f89,#7aa2f7,#7dcfff
 
       - name: push output to "output" branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
