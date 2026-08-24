@@ -176,6 +176,14 @@ A computer-vision safety system tracking eye closure, yawns, and gaze to compute
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
 
+## `$ git log --graph`
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake" />
+</div>
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
+
 <div align="center">
 
 ### 💼 Open to full-time roles, freelance & remote collaboration
