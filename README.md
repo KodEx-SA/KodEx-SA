@@ -1,154 +1,101 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:2f334d,100:7aa2f7&height=200&section=header&text=Ashley%20K%20Motsie&fontSize=52&fontColor=c0caf5&animation=fadeIn&fontAlignY=36&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Rustenburg%2C%20ZA%20%F0%9F%87%BF%F0%9F%87%A6&descAlignY=56&descAlign=50&descSize=18" width="100%" />
-</div>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:2f334d,100:7aa2f7&height=220&section=header&text=Ashley%20K%20Motsie&fontSize=54&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Rustenburg%2C%20ZA%20%F0%9F%87%BF%F0%9F%87%A6&descAlignY=60&descAlign=50&descSize=18" width="100%" alt="Ashley K Motsie banner" />
 
-<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1200&color=7AA2F7&center=true&vCenter=true&width=700&height=50&lines=%24+whoami;%3E+software_developer+%26%26+ai_engineer;%24+status+--set%3Dopen_to_remote" alt="Typing SVG" />
+
+  <br/>
+
+  [![Email](https://img.shields.io/badge/Email-motsieashley31%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=c0caf5&labelColor=1a1b26)](mailto:motsieashley31@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashley%20K%20Motsie-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=c0caf5&labelColor=1a1b26)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-ashleydevhub.vercel.app-1a1b26?style=for-the-badge&logo=google-chrome&logoColor=7aa2f7&labelColor=7aa2f7)](https://ashleydevhub.vercel.app/)
+  [![YouTube](https://img.shields.io/badge/YouTube-Ashley.Programmer-7aa2f7?style=for-the-badge&logo=youtube&logoColor=c0caf5&labelColor=1a1b26)](https://www.youtube.com/@Ashley.Programmer)
+
+  [![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
+  ![Profile Views](https://komarev.com/ghpvc/?username=KodEx-SA&color=7aa2f7&style=for-the-badge&label=VISITORS)
 </div>
 
 <br/>
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-motsieashley31%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=c0caf5&labelColor=1a1b26)](mailto:motsieashley31@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashley%20K%20Motsie-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=c0caf5&labelColor=1a1b26)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ashleydevhub.vercel.app-1a1b26?style=for-the-badge&logo=google-chrome&logoColor=1a1b26&labelColor=7aa2f7)](https://ashleydevhub.vercel.app/)
-[![YouTube](https://img.shields.io/badge/YouTube-Ashley.Programmer-7aa2f7?style=for-the-badge&logo=youtube&logoColor=c0caf5&labelColor=1a1b26)](https://www.youtube.com/@Ashley.Programmer)
-
-</div>
-
-<div align="center">
-
-[![committers.top badge](https://user-badge.committers.top/south_africa/KodEx-SA.svg)](https://user-badge.committers.top/south_africa/KodEx-SA)
-![Profile Views](https://komarev.com/ghpvc/?username=KodEx-SA&color=7aa2f7&style=for-the-badge&label=VISITORS)
-
-</div>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
 
 ## `$ whoami`
 
-I'm a software developer and AI engineer based in Rustenburg, South Africa. I build full-stack web apps and AI-powered systems — from voice assistants and chatbots to network infrastructure and Web3 tools. Most of what I ship is self-taught and production-facing, not just side projects. I've completed contracts at two tech firms and I'm currently freelancing while looking for a remote full-time role where I can keep building things that actually work.
+I build full-stack web apps and AI-powered systems: voice assistants, chatbots, network tooling and Web3 apps. Most of what I ship is self-taught and production-facing, not just side projects.
 
-Outside of code I write poetry and I'm learning C from the ground up.
+```text
+name       Ashley K Motsie
+role       Software Developer & AI Engineer
+location   Rustenburg, South Africa (SAST, UTC+2)
+status     🟢 open to full-time remote roles, freelance & collaboration
+learning   C, from the ground up
+off-hours  poetry
+reply      within 24 hrs
+```
 
-🟢 **Open to full-time remote opportunities.**
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
+<br/>
 
 ## `$ history --experience`
 
-<div align="center">
 <table>
-
-<tr>
-<td width="18%" align="center"><b>Jul 2025<br/>– May 2026</b></td>
-<td>
-
-**Software Developer & AI Engineer** · AI Global Networks
-<br/>
-<sub>Consulted on the AGN site (Groq-powered chatbot, Google Calendar booking integration) and built `webaudit`, a Playwright-based CLI auditing tool.</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/CONTRACT-COMPLETED-7aa2f7?style=flat-square&labelColor=1a1b26" />
-
-</td>
-</tr>
-
-<tr><td colspan="2"><div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:2f334d,100:1a1b26&height=1&section=header" width="100%"/></div></td></tr>
-
-<tr>
-<td width="18%" align="center"><b>Jun 2025<br/>– May 2026</b></td>
-<td>
-
-**Jr Software Developer & IT Technician** · Eullafied Tech Solutions
-<br/>
-<sub>Shipped the ETS WiFi Captive Portal (Node.js/Express/SQLite, AES-256-GCM, JWT) and the Intern Management System monorepo, end to end.</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/CONTRACT-COMPLETED-7aa2f7?style=flat-square&labelColor=1a1b26" />
-
-</td>
-</tr>
-
-<tr><td colspan="2"><div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:2f334d,100:1a1b26&height=1&section=header" width="100%"/></div></td></tr>
-
-<tr>
-<td width="18%" align="center"><b>Ongoing</b></td>
-<td>
-
-**Web Developer & Graphic Designer** · Maps Media Productions
-<br/>
-<sub>Web development and graphic design across client sites and campaigns.</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/STATUS-ACTIVE-9ece6a?style=flat-square&labelColor=1a1b26" />
-
-</td>
-</tr>
-
+  <tr>
+    <td width="170" valign="top"><b>Ongoing</b></td>
+    <td>
+      <b>Web Developer & Graphic Designer</b> · Maps Media Productions<br/>
+      <sub>Web development and graphic design across client sites and campaigns.</sub><br/>
+      <img src="https://img.shields.io/badge/STATUS-ACTIVE-9ece6a?style=flat-square&labelColor=1a1b26" alt="Active" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Jul 2025 – May 2026</b></td>
+    <td>
+      <b>Software Developer & AI Engineer</b> · AI Global Networks<br/>
+      <sub>Consulted on the AGN site (Groq-powered chatbot, Google Calendar booking) and built <code>webaudit</code>, a Playwright-based CLI auditing tool.</sub><br/>
+      <img src="https://img.shields.io/badge/CONTRACT-COMPLETED-7aa2f7?style=flat-square&labelColor=1a1b26" alt="Contract completed" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Jun 2025 – May 2026</b></td>
+    <td>
+      <b>Jr Software Developer & IT Technician</b> · Eullafied Tech Solutions<br/>
+      <sub>Shipped the ETS WiFi Captive Portal (Node.js, Express, SQLite, AES-256-GCM, JWT) and the Intern Management System monorepo, end to end.</sub><br/>
+      <img src="https://img.shields.io/badge/CONTRACT-COMPLETED-7aa2f7?style=flat-square&labelColor=1a1b26" alt="Contract completed" />
+    </td>
+  </tr>
 </table>
-</div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
+<br/>
 
 ## `$ ls ~/projects`
 
-<div align="center">
 <table>
-<tr>
-
-<td width="33%" align="center">
-
-<img src="https://img.shields.io/badge/CLARE-AI_VOICE_ASSISTANT-7aa2f7?style=for-the-badge&labelColor=1a1b26" />
-<br/><br/>
-<b>Clare - AI Voice Assistant</b>
-<br/><br/>
-<sub>
-A full voice-AI pipeline with persistent memory and a live Mission Control Dashboard. Runs on a free-tier provider stack - Deepgram STT, Groq LLM, Cartesia TTS, Silero VAD - backed by Supabase.
-</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/Next.js-1a1b26?style=flat-square&logo=next.js&logoColor=7aa2f7" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-
-</td>
-
-<td width="33%" align="center">
-
-<img src="https://img.shields.io/badge/TRADING_R1-TRACE_MARKET-bb9af7?style=for-the-badge&labelColor=1a1b26" />
-<br/><br/>
-<b>Trading-R1 Trace Market</b>
-<br/><br/>
-<sub>
-A reasoning-trace marketplace built for the Agora Agents Hackathon. Two Solidity contracts deployed on Arc Testnet, a Next.js 15 frontend with wagmi/RainbowKit, and a Python agent pipeline on Groq + Pinata.
-</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js-1a1b26?style=flat-square&logo=next.js&logoColor=7aa2f7" />
-
-</td>
-
-<td width="33%" align="center">
-
-<img src="https://img.shields.io/badge/DRIVER-DROWSINESS_MONITOR-f7768e?style=for-the-badge&labelColor=1a1b26" />
-<br/><br/>
-<b>Driver Drowsiness & Fatigue Monitor</b>
-<br/><br/>
-<sub>
-A computer-vision safety system tracking eye closure, yawns, and gaze to compute a real-time fatigue score and trigger high-risk alerts. Includes a dashboard for logging events and exporting driving data.
-</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-
-</td>
-
-</tr>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/AI_VOICE_ASSISTANT-7aa2f7?style=flat-square&labelColor=1a1b26" alt="AI voice assistant" /><br/><br/>
+      <b>Clare</b><br/>
+      <sub>Full voice-AI pipeline with persistent memory and a live Mission Control Dashboard. Runs on a free-tier stack: Deepgram STT, Groq LLM, Cartesia TTS and Silero VAD, backed by Supabase.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-1a1b26?style=flat-square&logo=next.js&logoColor=7aa2f7" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/WEB3_HACKATHON-bb9af7?style=flat-square&labelColor=1a1b26" alt="Web3 hackathon" /><br/><br/>
+      <b>Trading-R1 Trace Market</b><br/>
+      <sub>Reasoning-trace marketplace built for the Agora Agents Hackathon. Two Solidity contracts on Arc Testnet, a Next.js 15 frontend with wagmi/RainbowKit, and a Python agent pipeline on Groq + Pinata.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
+      <img src="https://img.shields.io/badge/Next.js-1a1b26?style=flat-square&logo=next.js&logoColor=7aa2f7" alt="Next.js" />
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/COMPUTER_VISION-f7768e?style=flat-square&labelColor=1a1b26" alt="Computer vision" /><br/><br/>
+      <b>Driver Drowsiness & Fatigue Monitor</b><br/>
+      <sub>Tracks eye closure, yawns and gaze to compute a real-time fatigue score and trigger high-risk alerts. Includes a dashboard for logging events and exporting driving data.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python" />
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+    </td>
+  </tr>
 </table>
-</div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
+More on my [portfolio](https://ashleydevhub.vercel.app/).
+
+<br/>
 
 ## `$ cat stack.json`
-
-<div align="center">
 
 | Layer | Technologies |
 |---|---|
@@ -159,41 +106,31 @@ A computer-vision safety system tracking eye closure, yawns, and gaze to compute
 | **Web3** | ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![wagmi](https://img.shields.io/badge/wagmi-1C1B1F?style=flat-square&logoColor=white) |
 | **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-1a1b26?style=flat-square&logo=vercel&logoColor=7aa2f7) ![GitHub Actions](https://img.shields.io/badge/Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white) |
 
-</div>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
+<br/>
 
 ## `$ git log --stats`
 
 <div align="center">
-  <img src="https://readme-stats-fork-mauve.vercel.app/api/?username=KodEx-SA&theme=tokyonight&show_icons=true&count_private=true" width="49%" />
-  <img src="https://github-readme-streak-stats-five-roan.vercel.app?user=KodEx-SA&theme=tokyonight" width="49%" />
-</div>
-
-<div align="center">
-  <img src="languages.svg" width="520" alt="Most Used Languages" />
-</div>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
-
-## `$ git log --graph`
-
-<div align="center">
+  <img src="github-stats.svg" width="49%" alt="GitHub stats" />
+  <img src="github-streak.svg" width="49%" alt="GitHub streak" />
+  <br/><br/>
+  <img src="languages.svg" width="520" alt="Most used languages" />
+  <br/><br/>
   <img src="https://raw.githubusercontent.com/KodEx-SA/KodEx-SA/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake" />
 </div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=2&section=header" width="100%"/></div>
+<br/>
 
 <div align="center">
 
-### 💼 Open to full-time roles, freelance & remote collaboration
+### 💼 Let's build something
 
-*Currently based in Rustenburg, ZA · SAST (UTC+2) · Responds within 24hrs*
+*Open to full-time remote roles, freelance work and collaboration.*
 
 [![Hire Me](https://img.shields.io/badge/Hire%20Me-7aa2f7?style=for-the-badge&logo=gmail&logoColor=c0caf5&labelColor=1a1b26)](mailto:motsieashley31@gmail.com)
-[![View Portfolio](https://img.shields.io/badge/View%20Portfolio-1a1b26?style=for-the-badge&logo=google-chrome&logoColor=1a1b26&labelColor=7aa2f7)](https://ashleydevhub.vercel.app/)
+[![View Portfolio](https://img.shields.io/badge/View%20Portfolio-1a1b26?style=for-the-badge&logo=google-chrome&logoColor=7aa2f7&labelColor=7aa2f7)](https://ashleydevhub.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/Connect-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=c0caf5&labelColor=1a1b26)](https://www.linkedin.com/in/ashley-k-motsie-718686263/)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:2f334d,100:1a1b26&height=120&section=footer&text=%24+exit+0&fontSize=20&fontColor=c0caf5&animation=twinkling&fontAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:2f334d,100:1a1b26&height=120&section=footer&text=%24%20exit%200&fontSize=20&fontColor=c0caf5&animation=twinkling&fontAlignY=65" width="100%" alt="footer" />
 
 </div>
