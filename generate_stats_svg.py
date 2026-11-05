@@ -147,23 +147,23 @@ def build_svg(stats):
         # (icon_path, label, value, data_testid, delay_ms)
         (
             "M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z",
-            "Total Stars Earned:", fmt(stats["total_stars"]), "stars", 450
+            "STARS EARNED", fmt(stats["total_stars"]), "stars", 450
         ),
         (
             "M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z",
-            f"Total Commits ({year}):", fmt(stats["total_commits"]), "commits", 600
+            f"COMMITS ({year})", fmt(stats["total_commits"]), "commits", 600
         ),
         (
             "M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z",
-            "Total PRs:", fmt(stats["total_prs"]), "prs", 750
+            "PULL REQUESTS", fmt(stats["total_prs"]), "prs", 750
         ),
         (
             "M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z",
-            "Total Issues:", fmt(stats["total_issues"]), "issues", 900
+            "ISSUES", fmt(stats["total_issues"]), "issues", 900
         ),
         (
             "M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z",
-            "Contributed to (last year):", fmt(stats["contrib_to"]), "contribs", 1050
+            "CONTRIBUTED TO (1Y)", fmt(stats["contrib_to"]), "contribs", 1050
         ),
     ]
 
@@ -181,42 +181,48 @@ def build_svg(stats):
   <desc id="descId">Total Stars Earned: {stats["total_stars"]}, Total Commits in {year}: {stats["total_commits"]}, Total PRs: {stats["total_prs"]}, Total Issues: {stats["total_issues"]}, Contributed to (last year): {stats["contrib_to"]}</desc>
   <style>
     .header {{
-      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-      fill: #34eb5c;
+      font: 700 14px 'Courier New', Courier, monospace;
+      letter-spacing: 1.5px;
+      fill: #00e5ff;
       animation: fadeInAnimation 0.8s ease-in-out forwards;
     }}
     @supports(-moz-appearance: auto) {{
-      .header {{ font-size: 15.5px; }}
+      .header {{ font-size: 13px; }}
     }}
     .stat {{
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
-      fill: #13e065;
+      font: 600 12px 'Courier New', Courier, monospace;
+      letter-spacing: 0.5px;
+      fill: #bfefff;
+    }}
+    .val {{
+      font: 700 14px 'Courier New', Courier, monospace;
+      fill: #00e5ff;
     }}
     @supports(-moz-appearance: auto) {{
-      .stat {{ font-size: 12px; }}
+      .stat {{ font-size: 11.5px; }}
     }}
     .stagger {{
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }}
     .rank-text {{
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif;
-      fill: #13e065;
+      font: 800 24px 'Courier New', Courier, monospace;
+      fill: #00e5ff;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }}
     .bold {{ font-weight: 700 }}
     .icon {{
-      fill: #13e065;
+      fill: #00e5ff;
       display: block;
     }}
     .rank-circle-rim {{
-      stroke: #34eb5c;
+      stroke: #00e5ff;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }}
     .rank-circle {{
-      stroke: #34eb5c;
+      stroke: #00e5ff;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -239,15 +245,39 @@ def build_svg(stats):
       to   {{ opacity: 1; }}
     }}
   </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04070d"/>
+      <stop offset="0.6" stop-color="#071a24"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00e5ff" stroke-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
   <rect
     x="0.5" y="0.5" rx="4.5"
-    height="99%" stroke="#e4e2e2"
-    width="466" fill="#0d1117" stroke-opacity="1"
+    height="99%" stroke="#00e5ff"
+    width="466" fill="url(#bg)" stroke-opacity="0.45"
   />
 
+  <rect x="1" y="1" width="465" height="193" rx="4" fill="url(#grid)"/>
+  <g stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.85">
+    <path d="M6 20V6H20"/><path d="M447 6H461V20"/>
+    <path d="M6 175V189H20"/><path d="M447 189H461V175"/>
+  </g>
+  <rect x="1" y="-30" width="465" height="30" fill="url(#scan)">
+    <animate attributeName="y" values="-30;195" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
   <g data-testid="card-title" transform="translate(25, 35)">
-    <text x="0" y="0" class="header" data-testid="header">{name}'s GitHub Stats</text>
+    <text x="0" y="0" class="header" data-testid="header">{name.upper()} // TELEMETRY</text>
   </g>
 
   <g data-testid="main-card-body" transform="translate(0, 55)">
@@ -274,7 +304,7 @@ def build_svg(stats):
             <path fill-rule="evenodd" d="{icon_path}"/>
           </svg>
           <text class="stat bold" x="25" y="12.5">{label}</text>
-          <text class="stat bold" x="219.01" y="12.5" data-testid="{testid}">{value}</text>
+          <text class="val bold" x="219.01" y="12.5" data-testid="{testid}">{value}</text>
         </g>
       </g>''')
 

@@ -138,6 +138,19 @@ def build_svg(data):
         }}
     </style>
     <defs>
+        <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+            <stop offset='0' stop-color='#04070d'/>
+            <stop offset='0.6' stop-color='#071a24'/>
+            <stop offset='1' stop-color='#04070d'/>
+        </linearGradient>
+        <pattern id='grid' width='24' height='24' patternUnits='userSpaceOnUse'>
+            <path d='M24 0H0V24' fill='none' stroke='#00e5ff' stroke-opacity='0.06'/>
+        </pattern>
+        <linearGradient id='scan' x1='0' y1='0' x2='0' y2='1'>
+            <stop offset='0' stop-color='#00e5ff' stop-opacity='0'/>
+            <stop offset='0.5' stop-color='#00e5ff' stop-opacity='0.18'/>
+            <stop offset='1' stop-color='#00e5ff' stop-opacity='0'/>
+        </linearGradient>
         <clipPath id='outer_rectangle'>
             <rect width='495' height='195' rx='4.5'/>
         </clipPath>
@@ -148,37 +161,46 @@ def build_svg(data):
     </defs>
     <g clip-path='url(#outer_rectangle)'>
         <g style='isolation: isolate'>
-            <rect stroke='#E4E2E2' fill='#0d1117' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+            <rect stroke='#00e5ff' stroke-opacity='0.45' fill='url(#bg)' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+            <rect x='1' y='1' width='493' height='193' rx='4' fill='url(#grid)'/>
         </g>
         <g style='isolation: isolate'>
             <line x1='165' y1='28' x2='165' y2='170' vector-effect='non-scaling-stroke'
-                stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter'
+                stroke-width='1' stroke='#00e5ff' stroke-opacity='0.3' stroke-linejoin='miter'
                 stroke-linecap='square' stroke-miterlimit='3'/>
             <line x1='330' y1='28' x2='330' y2='170' vector-effect='non-scaling-stroke'
-                stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter'
+                stroke-width='1' stroke='#00e5ff' stroke-opacity='0.3' stroke-linejoin='miter'
                 stroke-linecap='square' stroke-miterlimit='3'/>
         </g>
+
+        <g stroke='#00e5ff' stroke-width='1.5' fill='none' opacity='0.85'>
+            <path d='M6 20V6H20'/><path d='M475 6H489V20'/>
+            <path d='M6 175V189H20'/><path d='M475 189H489V175'/>
+        </g>
+        <rect x='1' y='-30' width='493' height='30' fill='url(#scan)'>
+            <animate attributeName='y' values='-30;195' dur='5s' repeatCount='indefinite'/>
+        </rect>
 
         <!-- Total Contributions -->
         <g style='isolation: isolate'>
             <g transform='translate(82.5, 48)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#13e065' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#00e5ff' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='700' font-size='28px'
                     style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>{tc:,}</text>
             </g>
             <g transform='translate(82.5, 84)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#FEFEFE' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#e6fbff' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='14px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>Total Contributions</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>CONTRIBUTIONS</text>
             </g>
             <g transform='translate(82.5, 114)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#9E9E9E' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#7fb8c4' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='12px'
                     style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>{total_range}</text>
             </g>
@@ -188,29 +210,29 @@ def build_svg(data):
         <g style='isolation: isolate'>
             <g transform='translate(247.5, 48)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#FEFEFE' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#e6fbff' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='700' font-size='28px'
                     style='animation: currstreak 0.6s linear forwards'>{cs}</text>
             </g>
             <g transform='translate(247.5, 108)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#34eb5c' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#00e5ff' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='700' font-size='14px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Current Streak</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>CURRENT STREAK</text>
             </g>
             <g transform='translate(247.5, 145)'>
                 <text x='0' y='21' stroke-width='0' text-anchor='middle'
-                    fill='#9E9E9E' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#7fb8c4' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='12px'
                     style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>{streak_range}</text>
             </g>
             <!-- Ring around number -->
             <g mask='url(#mask_out_ring_behind_fire)'>
                 <circle cx='247.5' cy='71' r='40' fill='none'
-                    stroke='#13e065' stroke-width='5'
+                    stroke='#00e5ff' stroke-width='5'
                     style='opacity: 0; animation: fadein 0.5s linear forwards 0.4s'/>
             </g>
             <!-- Fire icon -->
@@ -226,7 +248,7 @@ def build_svg(data):
                     C 1.07 12.38 2.9 11.53 3.92 10.16
                     C 4.31 11.45 4.51 12.81 4.51 14.2
                     C 4.51 16.85 2.36 19 -0.29 19 Z'
-                    fill='#34eb5c' stroke-opacity='0'/>
+                    fill='#00e5ff' stroke-opacity='0'/>
             </g>
         </g>
 
@@ -234,22 +256,22 @@ def build_svg(data):
         <g style='isolation: isolate'>
             <g transform='translate(412.5, 48)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#13e065' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#00e5ff' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='700' font-size='28px'
                     style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>{ls}</text>
             </g>
             <g transform='translate(412.5, 84)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#FEFEFE' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#e6fbff' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='14px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>Longest Streak</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>LONGEST STREAK</text>
             </g>
             <g transform='translate(412.5, 114)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
-                    fill='#9E9E9E' stroke='none'
-                    font-family='"Segoe UI", Ubuntu, sans-serif'
+                    fill='#7fb8c4' stroke='none'
+                    font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='12px'
                     style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>{longest_range}</text>
             </g>

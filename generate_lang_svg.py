@@ -185,13 +185,19 @@ def build_svg(lang_data):
 
     # Ocean-themed background
     lines.append(
-        f'<rect width="{W}" height="{H}" rx="10" fill="#0a0a0a" stroke="#00c9c9" stroke-width="1"/>'
+        f'<rect width="{W}" height="{H}" rx="10" fill="#04070d" stroke="#00e5ff" stroke-opacity="0.45" stroke-width="1"/>'
+    )
+
+    lines.append(
+        f'<g stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.85">'
+        f'<path d="M6 20V6H20"/><path d="M{W-20} 6H{W-6}V20"/>'
+        f'<path d="M6 {H-20}V{H-6}H20"/><path d="M{W-20} {H-6}H{W-6}V{H-20}"/></g>'
     )
 
     # Title
     lines.append(
-        f'<text x="20" y="26" font-family="\'Segoe UI\', Ubuntu, sans-serif" font-size="13" '
-        f'font-weight="600" fill="#00c9c9" letter-spacing="1">Most Used Languages</text>'
+        f'<text x="20" y="26" font-family="\'Courier New\', Courier, monospace" font-size="13" '
+        f'font-weight="700" fill="#00e5ff" letter-spacing="2">// LANGUAGE DISTRIBUTION</text>'
     )
     lines.append(
         f'<line x1="20" y1="33" x2="{W - 20}" y2="33" stroke="#003d4d" stroke-width="0.8"/>'
@@ -207,7 +213,7 @@ def build_svg(lang_data):
     )
     lines.append(
         f'<text x="{cx}" y="{cy + 10}" text-anchor="middle" font-family="monospace" '
-        f'font-size="28" font-weight="bold" fill="#00c9c9">{len(segments)}</text>'
+        f'font-size="28" font-weight="bold" fill="#00e5ff">{len(segments)}</text>'
     )
     lines.append(
         f'<text x="{cx}" y="{cy + 26}" text-anchor="middle" font-family="monospace" '
@@ -224,7 +230,7 @@ def build_svg(lang_data):
         pct_str = f"{seg['pct']*100:.1f}%"
         lines.append(f'<circle cx="{legend_x + 5}" cy="{y + 8}" r="5" fill="{seg["color"]}"/>')
         lines.append(
-            f'<text x="{legend_x + 18}" y="{y + 13}" font-family="\'Segoe UI\', Ubuntu, sans-serif" '
+            f'<text x="{legend_x + 18}" y="{y + 13}" font-family="\'Courier New\', Courier, monospace" '
             f'font-size="12" fill="#e0f7fa">{seg["name"]}</text>'
         )
         bar_bg_x = legend_x + 155
