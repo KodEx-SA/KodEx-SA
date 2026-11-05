@@ -203,6 +203,14 @@ A fully agentic assistant for Linux that acts on its own or on command, not just
                                            └────────────────────────────┘
 ```
 
+## `[ NEURAL ACTIVITY ]`
+
+<div align="center">
+  <img src="jarvis-session.svg" width="780" alt="Illustrative Jarvis session" />
+  <br/>
+  <sub><i>Illustrative session. Jarvis is still in progress; a real recording will replace this.</i></sub>
+</div>
+
 <div align="center"><img src="divider.svg" width="100%" height="12"/></div>
 
 ## `[ LOADED MODULES ]`
