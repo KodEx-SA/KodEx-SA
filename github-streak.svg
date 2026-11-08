@@ -76,7 +76,7 @@
                     fill='#7fb8c4' stroke='none'
                     font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='12px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>Nov 5, 2025 - Present</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>Nov 10, 2025 - Present</text>
             </g>
         </g>
 
@@ -87,7 +87,7 @@
                     fill='#e6fbff' stroke='none'
                     font-family='Courier New, Courier, monospace'
                     font-weight='700' font-size='28px'
-                    style='animation: currstreak 0.6s linear forwards'>3</text>
+                    style='animation: currstreak 0.6s linear forwards'>0</text>
             </g>
             <g transform='translate(247.5, 108)'>
                 <text x='0' y='32' stroke-width='0' text-anchor='middle'
@@ -101,7 +101,7 @@
                     fill='#7fb8c4' stroke='none'
                     font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='12px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Nov 5 - Nov 7</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>No active streak</text>
             </g>
             <!-- Ring around number -->
             <g mask='url(#mask_out_ring_behind_fire)'>
