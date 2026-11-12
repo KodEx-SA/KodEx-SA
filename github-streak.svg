@@ -101,7 +101,7 @@
                     fill='#7fb8c4' stroke='none'
                     font-family='Courier New, Courier, monospace'
                     font-weight='400' font-size='12px'
-                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Nov 9 - Nov 11</text>
+                    style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Nov 10 - Nov 12</text>
             </g>
             <!-- Ring around number -->
             <g mask='url(#mask_out_ring_behind_fire)'>
